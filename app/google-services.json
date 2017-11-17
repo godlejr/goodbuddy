@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "14384187953",
+    "firebase_url": "https://goodbuddy-1311.firebaseio.com",
+    "project_id": "goodbuddy-1311",
+    "storage_bucket": "goodbuddy-1311.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:14384187953:android:8e7f8568fc703727",
+        "android_client_info": {
+          "package_name": "com.demand.goodbuddy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "14384187953-huihecpo0plpbt1pneeeva5oggv4bj7t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAk-wGRazmWr8JmTCMZVDW2qKXDZNbMfGc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

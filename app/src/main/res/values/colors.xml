@@ -2,5 +2,23 @@
 <resources>
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
-    <color name="colorAccent">#FF4081</color>
+    <color name="colorAccent">#F16667</color>
+
+    <color name="textColor">#444</color>
+    <color name="overlay">#000</color>
+
+    <color name="white">#ffffff</color>
+    <color name="gray">#999999</color>
+    <color name="lightGray">#f9f9f9</color>
+    <color name="grayLine">#eaeaea</color>
+    <color name="red">#ED0000</color>
+    <color name="teal">#1DA1A5</color>
+    <color name="yellow">#FFF5A5</color>
+    <color name="green">#0BC904</color>
+
+    <color name="activeBackground">#333364</color>
+    <color name="bloodPressureBackground">#587DAC</color>
+    <color name="bloodSugarBackground">#4D9ED0</color>
+    <color name="dietBackground">#64C7C7</color>
+    <color name="bmiBackground">#656498</color>
 </resources>

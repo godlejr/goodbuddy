@@ -1,0 +1,772 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:background="#f5f5f5">
+    <include layout="@layout/inc_titlebar" android:id="@+id/include2" android:layout_width="match_parent"
+             android:layout_height="wrap_content"/>
+    <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/sv_note_1" android:layout_gravity="center_horizontal">
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+            <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:background="#ffffff"
+                    android:id="@+id/layout_content_0">
+                <TextView
+                        android:layout_width="896px"
+                        android:layout_height="160px"
+                        android:text="1. 비만이란"
+                        android:id="@+id/tv_note_list_0" android:gravity="center_vertical" android:textColor="#232323"
+                        android:textSize="43px" android:layout_marginLeft="50px"/>
+                <ImageView
+                        android:layout_width="35px"
+                        android:layout_height="24px"
+                        android:id="@+id/img_go_list_0" android:layout_gravity="center_vertical"
+                        android:src="@drawable/closed" android:layout_marginRight="50px"/>
+            </LinearLayout>
+            <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageView3" android:src="@drawable/underline_grey"/>
+            <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" android:background="#ffffff"
+                    android:id="@+id/content_0" android:visibility="gone">
+                <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                    <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/img_dash_0"
+                            android:src="@drawable/square" android:layout_marginLeft="50px"
+                            android:layout_marginRight="26px"/>
+                    <TextView
+                            android:layout_width="880px"
+                            android:layout_height="wrap_content"
+                            android:text="비만은 단순히 체중이 많이 나가는 것이 아니라, 체내에 지방이 과다하게 축적된 상태로 고혈압, 동맥경화증, 당뇨병 등 모든 생활습관병의 근원이 됩니다. 따라서 비만은 보다 체계적이고 과학적인 방법으로 치료하는 것이 가장 효과적이고 경제적인 방법입니다. "
+                            android:id="@+id/tv_note_content_0" android:textColor="#232323"
+                            android:gravity="center_vertical" android:textSize="35px"/>
+                </LinearLayout>
+                <ImageView android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/line_sub_0"
+                           android:src="@drawable/underline_grey" android:layout_gravity="center_horizontal"/>
+                <LinearLayout android:orientation="horizontal" android:layout_width="match_parent"
+                              android:layout_height="match_parent">
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                               android:id="@+id/img_dash_1"
+                               android:src="@drawable/square" android:layout_marginLeft="50px"
+                               android:layout_marginRight="26px"/>
+                    <TextView android:layout_width="970px" android:layout_height="wrap_content"
+                              android:text="비만이란 과다한 체지방을 가진 상태를 의미합니다. 남자는 체중의 25%, 여자는 체중의 30% 이상일 때, 임상적으로는 BMI(Body Mass Index:체질량지수)가 30.1 이상인 경우, 현재체중이 이상체중을 20% 초과하는 경우로 정의됩니다. "
+                              android:id="@+id/tv_note_content_1" android:textColor="#232323"
+                              android:gravity="center_vertical" android:layout_marginLeft="50px"
+                              android:textSize="35px"/>
+                </LinearLayout>
+                <ImageView android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/line_sub_1"
+                           android:src="@drawable/underline_grey" android:layout_gravity="center_horizontal"/>
+                <LinearLayout android:orientation="horizontal" android:layout_width="match_parent"
+                              android:layout_height="match_parent">
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                               android:id="@+id/img_dash_2"
+                               android:src="@drawable/square" android:layout_marginLeft="50px"
+                               android:layout_marginRight="26px"/>
+                    <TextView android:layout_width="970px" android:layout_height="wrap_content"
+                              android:text="복부비만은 허리둘레를 기준으로 하며 한국의 경우 아시아-태평양 비만기준에 따라 남자 90cm, 여자 85cm 초과 시 판단합니다. "
+                              android:id="@+id/tv_note_content_2" android:textColor="#232323"
+                              android:gravity="center_vertical" android:layout_marginLeft="50px"
+                              android:textSize="35px"/>
+                </LinearLayout>
+                <ImageView android:layout_width="match_parent" android:layout_height="wrap_content"
+                           android:id="@+id/imageView4" android:src="@drawable/underline_grey"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent"
+                          android:layout_height="wrap_content" android:background="#ffffff"
+                          android:id="@+id/layout_content_1">
+                <TextView android:layout_width="896px" android:layout_height="160px" android:text="2. 복부비만이 대사증후군에 미치는 영향"
+                          android:id="@+id/tv_note_list_1" android:gravity="center_vertical" android:textColor="#232323"
+                          android:textSize="43px" android:layout_marginLeft="50px"/>
+                <ImageView android:layout_width="35px" android:layout_height="24px" android:id="@+id/img_go_list_1"
+                           android:layout_gravity="center_vertical" android:src="@drawable/closed"
+                           android:layout_marginRight="50px"/>
+            </LinearLayout>
+            <ImageView android:layout_width="match_parent" android:layout_height="wrap_content"
+                       android:id="@+id/_5" android:src="@drawable/underline_grey"/>
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent"
+                          android:layout_height="match_parent" android:background="#ffffff" android:id="@+id/content_1"
+                          android:visibility="gone">
+                <LinearLayout android:orientation="horizontal" android:layout_width="match_parent"
+                                  android:layout_height="match_parent">
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                               android:id="@+id/img_dash_3"
+                               android:src="@drawable/square" android:layout_marginLeft="50px"
+                               android:layout_marginRight="26px"/>
+                    <TextView android:layout_width="970px" android:layout_height="wrap_content"
+                              android:text="내장형 비만은 복강 내 대장과 장간막에 지질이 축적되는 것을 말하며, 대장과 장간막의 지방세포는 지방질(중성 지방)을 쉽게 축적하고 분해하는 특성을 갖고 있어 뱃살은 쉽게 불어나고 핏속에도 잘 녹아들게 됩니다. 지방질이 핏속에 녹아들면 혈중 지방산 수치가 높아지게 되며, 지방질이 뱃속에 쌓이다가 일정 정도를 지나게 되면 눈에 안 보이는 변화를 나타냅니다. " android:id="@+id/tv_note_content_3"
+                              android:textColor="#232323" android:gravity="center_vertical" android:layout_marginLeft="50px"
+                              android:textSize="35px"/>
+                </LinearLayout>
+                <ImageView android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/line_sub_2"
+                           android:src="@drawable/underline_grey" android:layout_gravity="center_horizontal"/>
+                <LinearLayout android:orientation="horizontal" android:layout_width="match_parent"
+                              android:layout_height="match_parent">
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                               android:id="@+id/img_dash_4"
+                               android:src="@drawable/square" android:layout_marginLeft="50px"
+                               android:layout_marginRight="26px"/>
+                    <TextView android:layout_width="970px" android:layout_height="wrap_content"
+                              android:text="핏속에 지방산이 높아지면 그 첫 반응으로 말초 조직(근육, 지방세포)에서 인슐린의 효과가 떨어지게 됩니다. 인슐린은 신체의 각 세포에 에너지원인 포도당을 들여보내는 역할을 하고 있는데, 지방산이 높아지면 세포는 포도당 대신 역시 에너지원인 지방산을 받아들이게 되어 인슐린에 의한 포도당 유입이 방해됩니다. "
+                              android:id="@+id/tv_note_content_4" android:textColor="#232323"
+                              android:gravity="center_vertical" android:layout_marginLeft="50px"
+                              android:textSize="35px"/>
+                </LinearLayout>
+                <ImageView android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/line_sub_3"
+                           android:src="@drawable/underline_grey" android:layout_gravity="center_horizontal"/>
+                <LinearLayout android:orientation="horizontal" android:layout_width="match_parent"
+                              android:layout_height="match_parent">
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                               android:id="@+id/img_dash_5"
+                               android:src="@drawable/square" android:layout_marginLeft="50px"
+                               android:layout_marginRight="26px"/>
+                    <TextView android:layout_width="970px" android:layout_height="wrap_content"
+                              android:text="이를 의학적으로는 ‘인슐린 저항성’이라고 일컬으며, 각종 성인병의 뿌리를 형성합니다. 혈중 지방산 수치가 높아지면서 포도당이 소비되지 않으면 혈중 포도당 수치가 올라가 췌장의 β세포가 자극돼 포도당을 소비하기 위한 인슐린 분비가 촉진됩니다. "
+                              android:id="@+id/tv_note_content_5" android:textColor="#232323"
+                              android:gravity="center_vertical" android:layout_marginLeft="50px"
+                              android:textSize="35px"/>
+                </LinearLayout>
+                <ImageView android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/line_sub_4"
+                           android:src="@drawable/underline_grey" android:layout_gravity="center_horizontal"/>
+                <LinearLayout android:orientation="horizontal" android:layout_width="match_parent"
+                              android:layout_height="match_parent">
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                               android:id="@+id/img_dash_6"
+                               android:src="@drawable/square" android:layout_marginLeft="50px"
+                               android:layout_marginRight="26px"/>
+                    <TextView android:layout_width="970px" android:layout_height="wrap_content"
+                              android:text="즉, 핏속의 인슐린 수치가 올라가게 되는 것입니다. 의학에서는 이를 ‘고인슐린혈증’이라고 부르며, 혈중 인슐린 수치가 올라가면 신체에 여러 현상이 나타나게 됩니다. 신장의 염분 배출 기능이 저하되기도 하고, 교감신경이 자극돼 심장 박동이 촉진되거나 혈관이 수축됩니다. 즉 복부비만이라는 나무의 첫 번째 줄기인 고혈압이 생겨나는 것입니다. "
+                              android:id="@+id/tv_note_content_6" android:textColor="#232323"
+                              android:gravity="center_vertical" android:layout_marginLeft="50px"
+                              android:textSize="35px"/>
+                </LinearLayout>
+                <ImageView android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/line_sub_5"
+                           android:src="@drawable/underline_grey" android:layout_gravity="center_horizontal"/>
+                <LinearLayout android:orientation="horizontal" android:layout_width="match_parent"
+                              android:layout_height="match_parent">
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                               android:id="@+id/img_dash_7"
+                               android:src="@drawable/square" android:layout_marginLeft="50px"
+                               android:layout_marginRight="26px"/>
+                    <TextView android:layout_width="970px" android:layout_height="wrap_content"
+                              android:text="만약 개인에 따라 혈중 포도당 수치가 올라가는데도 인슐린 분비를 맡고 있는 β세포가 이를 감당하지 못한다면 인슐린 비의존형 당뇨병이 나타납니다. 이것은 복부 비만이라는 나무의 두 번째 줄기에 해당됩니다. "
+                              android:id="@+id/tv_note_content_7" android:textColor="#232323" android:gravity="center_vertical"
+                              android:layout_marginLeft="50px" android:textSize="35px"/>
+                </LinearLayout>
+                <ImageView android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/line_sub_6"
+                           android:src="@drawable/underline_grey" android:layout_gravity="center_horizontal"/>
+                <LinearLayout android:orientation="horizontal" android:layout_width="match_parent"
+                              android:layout_height="match_parent">
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                               android:id="@+id/img_dash_8"
+                               android:src="@drawable/square" android:layout_marginLeft="50px"
+                               android:layout_marginRight="26px"/>
+                    <TextView android:layout_width="970px" android:layout_height="wrap_content"
+                              android:text="복부비만은 이상지질혈증이라는 세 번째 줄기도 만들어 냅니다. 이상지질혈증이란 지질 대사에 이상이 생기는 것으로, 핏속에 중성 지방 수치가 올라가면서 혈중HDL(고비중지단백) 콜레스테롤의 수치가 내려가고 LDL(저비중지단백)의 수치가 올라가게 됩니다. HDL콜레스테롤을 콜레스테롤이 혈관에 붙는 것을 막기 때문에 좋은 콜레스테롤이라고 칭해집니다. "
+                              android:id="@+id/tv_note_content_8" android:textColor="#232323"
+                              android:gravity="center_vertical" android:layout_marginLeft="50px"
+                              android:textSize="35px"/>
+                </LinearLayout>
+                <ImageView android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/line_sub_7"
+                           android:src="@drawable/underline_grey" android:layout_gravity="center_horizontal"/>
+                <LinearLayout android:orientation="horizontal" android:layout_width="match_parent"
+                              android:layout_height="match_parent">
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                               android:id="@+id/img_dash_9"
+                               android:src="@drawable/square" android:layout_marginLeft="50px"
+                               android:layout_marginRight="26px"/>
+                    <TextView android:layout_width="970px" android:layout_height="wrap_content"
+                              android:text="일반적으로 표준체중의 20%를 넘는 비만군의 고혈압 발생 빈도는 정상 군의 3배 이상으로 알려져 있습니다. 당뇨병의 경우 일반적인 비만은 정상인에 비해 4배 이상 발생 빈도가 높고, 특히 복부 비만의 경우 그 발생 위험이 10배에 달하는 것으로 보고되어 있습니다. 또한 내장 지방 무게가 증가할수록 사망률 위험이 높아진다고 합니다. "
+                              android:id="@+id/tv_note_content_9" android:textColor="#232323" android:gravity="center_vertical"
+                              android:layout_marginLeft="50px" android:textSize="35px"/>
+                </LinearLayout>
+                <ImageView android:layout_width="match_parent" android:layout_height="wrap_content"
+                           android:src="@drawable/underline_grey"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent"
+                          android:layout_height="wrap_content" android:background="#ffffff"
+                          android:id="@+id/layout_content_2">
+                <TextView android:layout_width="896px" android:layout_height="160px" android:text="3. 복부비만 형태"
+                          android:id="@+id/tv_note_list_2" android:gravity="center_vertical" android:textColor="#232323"
+                          android:textSize="43px" android:layout_marginLeft="50px"/>
+                <ImageView android:layout_width="35px" android:layout_height="24px" android:id="@+id/img_go_list_2"
+                           android:layout_gravity="center_vertical" android:src="@drawable/closed"
+                           android:layout_marginRight="50px"/>
+            </LinearLayout>
+            <ImageView android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/imageView173"
+                       android:src="@drawable/underline_grey"/>
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent"
+                          android:layout_height="match_parent" android:background="#ffffff" android:id="@+id/content_2"
+                          android:visibility="gone">
+                <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                    <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/round_0" android:src="@drawable/round"
+                            android:layout_gravity="center_vertical"/>
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="피하형"
+                            android:id="@+id/tv_round_0" android:textColor="#232323"
+                            android:layout_gravity="center_vertical" android:gravity="center_vertical"/>
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:layout_width="match_parent"
+                              android:layout_height="match_parent">
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                               android:id="@+id/img_dash_10" android:src="@drawable/square"
+                               android:layout_marginLeft="50px" android:layout_marginRight="26px"/>
+                    <TextView android:layout_width="970px" android:layout_height="wrap_content"
+                              android:text="복강 밖 배의 피부 밑에 지방이 축적되는 것으로, 복강과 배의 피부 사이 두께가 두꺼워지는 형태를 말합니다. 피하형은 주로 성장기에 생기기 때문에 복부가 비만한 청소년들은 대부분 피하형이라고 볼 수 있습니다. "
+                              android:id="@+id/tv_note_content_10" android:textColor="#232323"
+                              android:gravity="center_vertical" android:layout_marginLeft="50px"
+                              android:textSize="35px"/>
+                </LinearLayout>
+                <ImageView android:layout_width="match_parent" android:layout_height="wrap_content"
+                           android:id="@+id/line_sub_8" android:src="@drawable/underline_grey"
+                           android:layout_gravity="center_horizontal"/>
+                <LinearLayout android:orientation="horizontal" android:layout_width="match_parent"
+                              android:layout_height="wrap_content">
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                               android:id="@+id/round_1" android:src="@drawable/round"
+                               android:layout_gravity="center_vertical"/>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                              android:text="내장형" android:id="@+id/tv_round_1" android:textColor="#232323"
+                              android:layout_gravity="center_vertical" android:gravity="center_vertical"/>
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:layout_width="match_parent"
+                              android:layout_height="match_parent">
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                               android:id="@+id/img_dash_11" android:src="@drawable/square"
+                               android:layout_marginLeft="50px" android:layout_marginRight="26px"
+                               android:layout_gravity="center_vertical"/>
+                    <TextView android:layout_width="970px" android:layout_height="wrap_content"
+                              android:text="위 주변의 막과 복강 내부 내장 사이를 가르는 장간막에 지방이 쌓여 살이 찐 것을 말하며 30 대 이후 성인들에게 나타납니다. 생활습관병과 관련이 깊은 것도 바로 이 내장형 비만으로 팔, 다리, 등 신체의 다른 부위는 살이 없고 말랐는데도 유독 배에만 잔뜩 살이 쪘다면 바로 내장형입니다. "
+                              android:id="@+id/tv_note_content_11" android:textColor="#232323"
+                              android:gravity="center_vertical" android:layout_marginLeft="50px"
+                              android:textSize="35px"/>
+                </LinearLayout>
+                <ImageView android:layout_width="match_parent" android:layout_height="wrap_content"
+                           android:id="@+id/imageView6" android:src="@drawable/underline_grey"
+                           android:layout_gravity="center_horizontal"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent"
+                          android:layout_height="wrap_content" android:background="#ffffff"
+                          android:id="@+id/layout_content_3">
+                <TextView android:layout_width="896px" android:layout_height="160px" android:text="4. 복부비만 원인"
+                          android:id="@+id/tv_note_list_3" android:gravity="center_vertical" android:textColor="#232323"
+                          android:textSize="43px" android:layout_marginLeft="50px"/>
+                <ImageView android:layout_width="35px" android:layout_height="24px" android:id="@+id/img_go_list_3"
+                           android:layout_gravity="center_vertical" android:src="@drawable/closed"
+                           android:layout_marginRight="50px"/>
+            </LinearLayout>
+            <ImageView android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/imageView81"
+                       android:src="@drawable/underline_grey"/>
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent"
+                          android:layout_height="match_parent" android:background="#ffffff" android:id="@+id/content_3"
+                          android:visibility="gone">
+                <LinearLayout android:orientation="horizontal" android:layout_width="match_parent"
+                              android:layout_height="wrap_content">
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                               android:id="@+id/round_2" android:src="@drawable/round"
+                               android:layout_gravity="center_vertical"/>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                              android:text="잘못된 생활습관" android:id="@+id/tv_round_2" android:textColor="#232323"
+                              android:layout_gravity="center_vertical" android:gravity="center_vertical"/>
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:layout_width="match_parent"
+                              android:layout_height="match_parent">
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                               android:id="@+id/img_dash_12" android:src="@drawable/square"
+                               android:layout_marginLeft="50px" android:layout_marginRight="26px"
+                    />
+                    <TextView android:layout_width="970px" android:layout_height="wrap_content"
+                              android:text="남성들은 대부분 일의 연장이라는 명목으로 무리한 술자리가 자주 이어지며, 이때 과음과 과식을 피할 수 없게 되고, 술을 마신 다음 날 아침은 거르기 쉽상입니다. 직장에서의 스트레스는 또다시 술을 마시게 하고, 다음 날 아침은 또다시 굶게 만드는 악순환을 거듭하게 됨으로써 점차 복부 비만으로 향하게 됩니다. "
+                              android:id="@+id/tv_note_content_12" android:textColor="#232323"
+                              android:gravity="center_vertical" android:layout_marginLeft="50px"
+                              android:textSize="35px"/>
+                </LinearLayout>
+                <ImageView android:layout_width="match_parent" android:layout_height="wrap_content"
+                           android:id="@+id/line_sub_9" android:src="@drawable/underline_grey"
+                           android:layout_gravity="center_horizontal"/>
+                <LinearLayout android:orientation="horizontal" android:layout_width="match_parent"
+                              android:layout_height="wrap_content">
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                               android:id="@+id/round_3" android:src="@drawable/round"
+                               android:layout_gravity="center_vertical"/>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                              android:text="일하는 환경" android:id="@+id/tv_round_3" android:textColor="#232323"
+                              android:layout_gravity="center_vertical" android:gravity="center_vertical"/>
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:layout_width="match_parent"
+                              android:layout_height="match_parent">
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                               android:id="@+id/img_dash_13" android:src="@drawable/square"
+                               android:layout_marginLeft="50px" android:layout_marginRight="26px"
+                    />
+                    <TextView android:layout_width="970px" android:layout_height="wrap_content"
+                              android:text="사무직 직종에 종사하시는 분들의 경우 복부비만과 깊은 연관을 가지고 있습니다. 오전 9시 출근해서 오후7시~8시 퇴근시간까지 하루 종일 컴퓨터 앞 또는 자신의 책상 앞에 앉아 있어야 하므로, 오랜 시간동안 의자에 앉아있는 사무환경은 복부에 지방이 쌓일 수밖에 없는 이유 중 하나입니다. "
+                              android:id="@+id/tv_note_content_13" android:textColor="#232323"
+                              android:gravity="center_vertical" android:layout_marginLeft="50px"
+                              android:textSize="35px"/>
+                </LinearLayout>
+                <ImageView android:layout_width="match_parent" android:layout_height="wrap_content"
+                           android:id="@+id/line_sub_10" android:src="@drawable/underline_grey"
+                           android:layout_gravity="center_horizontal"/>
+                <LinearLayout android:orientation="horizontal" android:layout_width="match_parent"
+                              android:layout_height="wrap_content">
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                               android:id="@+id/round_4" android:src="@drawable/round"
+                               android:layout_gravity="center_vertical"/>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                              android:text="운동부족" android:id="@+id/tv_round_4" android:textColor="#232323"
+                              android:layout_gravity="center_vertical" android:gravity="center_vertical"/>
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:layout_width="match_parent"
+                              android:layout_height="match_parent">
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                               android:id="@+id/img_dash_14" android:src="@drawable/square"
+                               android:layout_marginLeft="50px" android:layout_marginRight="26px"
+                    />
+                    <TextView android:layout_width="970px" android:layout_height="wrap_content"
+                              android:text="일반적으로 집에서 회사까지 자동차로 출근을 하고 회사에서도 계단을 이용하기보다는 엘리베이터를 이용하고 저녁때에는 또 다시 자동차로 퇴근을 하고 근무하는 시간에는 주로 앉아 보내는 시간이 많아 특별히 운동을 할 시간이 없음은 물론이고 집에 와서도 피곤해서 움직임이 적어 운동량이 부족하게 됩니다. "
+                              android:id="@+id/tv_note_content_14" android:textColor="#232323"
+                              android:gravity="center_vertical" android:layout_marginLeft="50px"
+                              android:textSize="35px"/>
+                </LinearLayout>
+                <ImageView android:layout_width="match_parent" android:layout_height="wrap_content"
+                           android:id="@+id/line_sub_11" android:src="@drawable/underline_grey"
+                           android:layout_gravity="center_horizontal"/>
+                <LinearLayout android:orientation="horizontal" android:layout_width="match_parent"
+                              android:layout_height="wrap_content">
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                               android:id="@+id/round_5" android:src="@drawable/round"
+                               android:layout_gravity="center_vertical"/>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                              android:text="술" android:id="@+id/tv_round_5" android:textColor="#232323"
+                              android:layout_gravity="center_vertical" android:gravity="center_vertical"/>
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:layout_width="match_parent"
+                              android:layout_height="match_parent">
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                               android:id="@+id/img_dash_15" android:src="@drawable/square"
+                               android:layout_marginLeft="50px" android:layout_marginRight="26px"
+                    />
+                    <TextView android:layout_width="970px" android:layout_height="wrap_content"
+                              android:text="알코올은 1g당 7kcal의 열량을 가지고 있어, 술을 많이 마시게 되면 높은 열량의 섭취로 인해서 지방이나 탄수화물이 분해되어 열량을 사용할 기회가 없을 뿐 아니라, 하루에 필요한 열량 이상을 과잉 섭취하게 되어 과잉된 열량이 체내에 저장됨으로써 비만증이 되는 것입니다. "
+                              android:id="@+id/tv_note_content_15" android:textColor="#232323"
+                              android:gravity="center_vertical" android:layout_marginLeft="50px"
+                              android:textSize="35px"/>
+                </LinearLayout>
+                <ImageView android:layout_width="match_parent" android:layout_height="wrap_content"
+                           android:id="@+id/line_sub_12" android:src="@drawable/underline_grey"
+                           android:layout_gravity="center_horizontal"/>
+                <LinearLayout android:orientation="horizontal" android:layout_width="match_parent"
+                              android:layout_height="wrap_content">
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                               android:id="@+id/round_6" android:src="@drawable/round"
+                               android:layout_gravity="center_vertical"/>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                              android:text="스트레스" android:id="@+id/tv_round_6" android:textColor="#232323"
+                              android:layout_gravity="center_vertical" android:gravity="center_vertical"/>
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:layout_width="match_parent"
+                              android:layout_height="match_parent">
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                               android:id="@+id/img_dash_16" android:src="@drawable/square"
+                               android:layout_marginLeft="50px" android:layout_marginRight="26px"
+                    />
+                    <TextView android:layout_width="970px" android:layout_height="wrap_content"
+                              android:text="현대인의 질병은 대부분 스트레스에서 발병한다고 합니다. 비만도 예외가 아니어서 정신적인 스트레스가 비만을 유발할 수 있습니다. "
+                              android:id="@+id/tv_note_content_16" android:textColor="#232323" android:gravity="center_vertical"
+                              android:layout_marginLeft="50px" android:textSize="35px"/>
+                </LinearLayout>
+                <ImageView android:layout_width="match_parent" android:layout_height="wrap_content"
+                           android:id="@+id/line_sub_13" android:src="@drawable/underline_grey"
+                           android:layout_gravity="center_horizontal"/>
+                <LinearLayout android:orientation="horizontal" android:layout_width="match_parent"
+                              android:layout_height="match_parent">
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                               android:id="@+id/img_dash_17" android:src="@drawable/square"
+                               android:layout_marginLeft="50px" android:layout_marginRight="26px"
+                    />
+                    <TextView android:layout_width="970px" android:layout_height="wrap_content"
+                              android:text="급성 스트레스는 식욕이 줄어들 수 있지만, 만성 스트레스에 시달리게 되면 식욕이 오히려 증가하게 됩니다. 직장 상사나 동료와의 갈등, 그리고 가정과 사회에서 받게 되는 스트레스가 과음과 과식을 유발하게 되고 결국 이로 인해 열량 섭취가 많아져서 비만해 지기 쉽습니다. "
+                              android:id="@+id/tv_note_content_17" android:textColor="#232323" android:gravity="center_vertical"
+                              android:layout_marginLeft="50px" android:textSize="35px"/>
+                </LinearLayout>
+                <ImageView android:layout_width="match_parent" android:layout_height="wrap_content"
+                           android:id="@+id/imageView12562" android:src="@drawable/underline_grey"
+                           android:layout_gravity="center_horizontal"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent"
+                          android:layout_height="wrap_content" android:background="#ffffff"
+                          android:id="@+id/layout_content_4">
+                <TextView android:layout_width="896px" android:layout_height="160px" android:text="5. 복부비만 합병증"
+                          android:id="@+id/tv_note_list_4" android:gravity="center_vertical" android:textColor="#232323"
+                          android:textSize="43px" android:layout_marginLeft="50px"/>
+                <ImageView android:layout_width="35px" android:layout_height="24px" android:id="@+id/img_go_list_4"
+                           android:layout_gravity="center_vertical" android:src="@drawable/closed"
+                           android:layout_marginRight="50px"/>
+            </LinearLayout>
+            <ImageView android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/img1923"
+                       android:src="@drawable/underline_grey"/>
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent"
+                          android:layout_height="match_parent" android:background="#ffffff" android:id="@+id/content_4"
+                          android:visibility="gone">
+                <LinearLayout android:orientation="horizontal" android:layout_width="match_parent"
+                              android:layout_height="wrap_content">
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                               android:id="@+id/round_7" android:src="@drawable/round"
+                               android:layout_gravity="center_vertical"/>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                              android:text="고혈압" android:id="@+id/tv_round_7" android:textColor="#232323"
+                              android:layout_gravity="center_vertical" android:gravity="center_vertical"/>
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:layout_width="match_parent"
+                              android:layout_height="match_parent">
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                               android:id="@+id/img_dash_18" android:src="@drawable/square"
+                               android:layout_marginLeft="50px" android:layout_marginRight="26px"/>
+                    <TextView android:layout_width="970px" android:layout_height="wrap_content"
+                              android:text="고혈압이란 심장이 수축할 때 혈관의 양쪽 사이에 생기는 혈관벽을 미는 힘을 말하는데, 체질량지수(BMI)가 증가하면, 혈압이 높아지게 됩니다. "
+                              android:id="@+id/tv_note_content_18" android:textColor="#232323"
+                              android:gravity="center_vertical" android:layout_marginLeft="50px"
+                              android:textSize="35px"/>
+                </LinearLayout>
+                <ImageView android:layout_width="match_parent" android:layout_height="wrap_content"
+                           android:id="@+id/line_sub_14" android:src="@drawable/underline_grey"
+                           android:layout_gravity="center_horizontal"/>
+                <LinearLayout android:orientation="horizontal" android:layout_width="match_parent"
+                              android:layout_height="wrap_content">
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                               android:id="@+id/round_8" android:src="@drawable/round"
+                               android:layout_gravity="center_vertical"/>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                              android:text="당뇨병" android:id="@+id/tv_round_8" android:textColor="#232323"
+                              android:layout_gravity="center_vertical" android:gravity="center_vertical"/>
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:layout_width="match_parent"
+                              android:layout_height="match_parent">
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                               android:id="@+id/img_dash_19" android:src="@drawable/square"
+                               android:layout_marginLeft="50px" android:layout_marginRight="26px"/>
+                    <TextView android:layout_width="970px" android:layout_height="wrap_content"
+                              android:text="내장지방이 축척되면 인슐린 저항성을 일으키며, 대사증후군과 당뇨병으로 넘어갈 확률이 높아집니다. "
+                              android:id="@+id/tv_note_content_19" android:textColor="#232323"
+                              android:gravity="center_vertical" android:layout_marginLeft="50px"
+                              android:textSize="35px"/>
+                </LinearLayout>
+                <ImageView android:layout_width="match_parent" android:layout_height="wrap_content"
+                           android:id="@+id/line_sub_15" android:src="@drawable/underline_grey"
+                           android:layout_gravity="center_horizontal"/>
+                <LinearLayout android:orientation="horizontal" android:layout_width="match_parent"
+                              android:layout_height="wrap_content">
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                               android:id="@+id/round_9" android:src="@drawable/round"
+                               android:layout_gravity="center_vertical"/>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="이상지질혈증"
+                              android:id="@+id/tv_round_9" android:textColor="#232323"
+                              android:layout_gravity="center_vertical" android:gravity="center_vertical"/>
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:layout_width="match_parent"
+                              android:layout_height="match_parent">
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                               android:id="@+id/img_dash_20" android:src="@drawable/square"
+                               android:layout_marginLeft="50px" android:layout_marginRight="26px"/>
+                    <TextView android:layout_width="970px" android:layout_height="wrap_content"
+                              android:text="복부비만은 총 콜레스테롤, LDL콜레스테롤 및 중성지방을 증가시킵니다. 이러한 이상지질혈증은 혈관을 딱딱하게 하여 뇌졸중이나 관상동맥질환을 증가 시킵니다. "
+                              android:id="@+id/tv_note_content_20" android:textColor="#232323"
+                              android:gravity="center_vertical" android:layout_marginLeft="50px"
+                              android:textSize="35px"/>
+                </LinearLayout>
+                <ImageView android:layout_width="match_parent" android:layout_height="wrap_content"
+                           android:id="@+id/line_sub_16" android:src="@drawable/underline_grey"
+                           android:layout_gravity="center_horizontal"/>
+                <LinearLayout android:orientation="horizontal" android:layout_width="match_parent"
+                              android:layout_height="wrap_content">
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                               android:id="@+id/round_10" android:src="@drawable/round"
+                               android:layout_gravity="center_vertical"/>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                              android:text="암관련질환" android:id="@+id/tv_round_10" android:textColor="#232323"
+                              android:layout_gravity="center_vertical" android:gravity="center_vertical"/>
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:layout_width="match_parent"
+                              android:layout_height="match_parent">
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                               android:id="@+id/img_dash_21" android:src="@drawable/square"
+                               android:layout_marginLeft="50px" android:layout_marginRight="26px"/>
+                    <TextView android:layout_width="970px" android:layout_height="wrap_content"
+                              android:text="내장지방이 증가하면 유방암위험률이 증가합니다. "
+                              android:id="@+id/tv_note_content_21" android:textColor="#232323"
+                              android:gravity="center_vertical" android:layout_marginLeft="50px"
+                              android:textSize="35px"/>
+                </LinearLayout>
+                <ImageView android:layout_width="match_parent" android:layout_height="wrap_content"
+                           android:id="@+id/line_sub_17" android:src="@drawable/underline_grey"
+                           android:layout_gravity="center_horizontal"/>
+                <LinearLayout android:orientation="horizontal" android:layout_width="match_parent"
+                              android:layout_height="match_parent">
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                               android:id="@+id/img_dash_22" android:src="@drawable/square"
+                               android:layout_marginLeft="50px" android:layout_marginRight="26px"/>
+                    <TextView android:layout_width="970px" android:layout_height="wrap_content"
+                              android:text="내장지방이 많아지면 인슐린이 증가하여 전립선암 위험률이 증가합니다. "
+                              android:id="@+id/tv_note_content_22" android:textColor="#232323" android:gravity="center_vertical"
+                              android:layout_marginLeft="50px" android:textSize="35px"/>
+                </LinearLayout>
+                <ImageView android:layout_width="match_parent" android:layout_height="wrap_content"
+                           android:id="@+id/line_sub_18" android:src="@drawable/underline_grey"
+                           android:layout_gravity="center_horizontal"/>
+                <LinearLayout android:orientation="horizontal" android:layout_width="match_parent"
+                              android:layout_height="match_parent">
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                               android:id="@+id/img_dash_27" android:src="@drawable/square"
+                               android:layout_marginLeft="50px" android:layout_marginRight="26px"/>
+                    <TextView android:layout_width="970px" android:layout_height="wrap_content"
+                              android:text="또한 내장지방으로 인해 지방간, 비알콜성 지방간염의 위험인자로 알려져서 담석과도 관련이 있습니다. " android:id="@+id/tv_note_content_27"
+                              android:textColor="#232323" android:gravity="center_vertical"
+                              android:layout_marginLeft="50px" android:textSize="35px"/>
+                </LinearLayout>
+                <ImageView android:layout_width="match_parent" android:layout_height="wrap_content"
+                           android:id="@+id/line_sub_22" android:src="@drawable/underline_grey"
+                           android:layout_gravity="center_horizontal"/>
+                <LinearLayout android:orientation="horizontal" android:layout_width="match_parent"
+                              android:layout_height="wrap_content">
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                               android:id="@+id/round_11" android:src="@drawable/round"
+                               android:layout_gravity="center_vertical"/>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                              android:text="관상동맥질환" android:id="@+id/tv_round_11" android:textColor="#232323"
+                              android:layout_gravity="center_vertical" android:gravity="center_vertical"/>
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:layout_width="match_parent"
+                              android:layout_height="match_parent">
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                               android:id="@+id/img_dash_23" android:src="@drawable/square"
+                               android:layout_marginLeft="50px" android:layout_marginRight="26px"/>
+                    <TextView android:layout_width="970px" android:layout_height="wrap_content"
+                              android:text="관상동맥이란 심장 근육에 혈액을 공급하는 혈관을 말합니다. "
+                              android:id="@+id/tv_note_content_23" android:textColor="#232323" android:gravity="center_vertical"
+                              android:layout_marginLeft="50px" android:textSize="35px"/>
+                </LinearLayout>
+                <ImageView android:layout_width="match_parent" android:layout_height="wrap_content"
+                           android:id="@+id/line_sub_19" android:src="@drawable/underline_grey"
+                           android:layout_gravity="center_horizontal"/>
+                <LinearLayout android:orientation="horizontal" android:layout_width="match_parent"
+                              android:layout_height="match_parent">
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                               android:id="@+id/img_dash_24" android:src="@drawable/square"
+                               android:layout_marginLeft="50px" android:layout_marginRight="26px"/>
+                    <TextView android:layout_width="970px" android:layout_height="wrap_content"
+                              android:text="비만환자는 고지혈증, 당뇨병 및 고혈압이 높아지면서 이것이 위험인자로 작용해 관상동맥질환을 발생시킵니다. "
+                              android:id="@+id/tv_note_content_24" android:textColor="#232323" android:gravity="center_vertical"
+                              android:layout_marginLeft="50px" android:textSize="35px"/>
+                </LinearLayout>
+                <ImageView android:layout_width="match_parent" android:layout_height="wrap_content"
+                           android:id="@+id/line_sub_20" android:src="@drawable/underline_grey"
+                           android:layout_gravity="center_horizontal"/>
+                <LinearLayout android:orientation="horizontal" android:layout_width="match_parent"
+                              android:layout_height="wrap_content">
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                               android:id="@+id/round_12" android:src="@drawable/round"
+                               android:layout_gravity="center_vertical"/>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                              android:text="호흡기 및 소화기 관련 질환" android:id="@+id/tv_round_12" android:textColor="#232323"
+                              android:layout_gravity="center_vertical" android:gravity="center_vertical"/>
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:layout_width="match_parent"
+                              android:layout_height="match_parent">
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                               android:id="@+id/img_dash_25" android:src="@drawable/square"
+                               android:layout_marginLeft="50px" android:layout_marginRight="26px"/>
+                    <TextView android:layout_width="970px" android:layout_height="wrap_content"
+                              android:text="내장지방은 수면무호흡증과 연관이 있습니다. "
+                              android:id="@+id/tv_note_content_25" android:textColor="#232323" android:gravity="center_vertical"
+                              android:layout_marginLeft="50px" android:textSize="35px"/>
+                </LinearLayout>
+                <ImageView android:layout_width="match_parent" android:layout_height="wrap_content"
+                           android:id="@+id/line_sub_21" android:src="@drawable/underline_grey"
+                           android:layout_gravity="center_horizontal"/>
+                <LinearLayout android:orientation="horizontal" android:layout_width="match_parent"
+                              android:layout_height="match_parent">
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                               android:id="@+id/img_dash_26" android:src="@drawable/square"
+                               android:layout_marginLeft="50px" android:layout_marginRight="26px"/>
+                    <TextView android:layout_width="970px" android:layout_height="wrap_content"
+                              android:text="또한 내장지방으로 인해 지방간, 비알콜성 지방간염의 위험인자로 알려져서 담석과도 관련이 있습니다. "
+                              android:id="@+id/tv_note_content_26" android:textColor="#232323" android:gravity="center_vertical"
+                              android:layout_marginLeft="50px" android:textSize="35px"/>
+                </LinearLayout>
+                <ImageView android:layout_width="match_parent" android:layout_height="wrap_content"
+                           android:id="@+id/imageView9123" android:src="@drawable/underline_grey"
+                           android:layout_gravity="center_horizontal"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent"
+                          android:layout_height="wrap_content" android:background="#ffffff"
+                          android:id="@+id/layout_content_5">
+                <TextView android:layout_width="896px" android:layout_height="160px" android:text="6. 체중조절 7대 원칙"
+                          android:id="@+id/tv_note_list_5" android:gravity="center_vertical" android:textColor="#232323"
+                          android:textSize="43px" android:layout_marginLeft="50px"/>
+                <ImageView android:layout_width="35px" android:layout_height="24px" android:id="@+id/img_go_list_5"
+                           android:layout_gravity="center_vertical" android:src="@drawable/closed"
+                           android:layout_marginRight="50px"/>
+            </LinearLayout>
+            <ImageView android:layout_width="match_parent" android:layout_height="wrap_content"
+                       android:id="@+id/imageView16009" android:src="@drawable/underline_grey"/>
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent"
+                          android:layout_height="match_parent" android:background="#ffffff" android:id="@+id/content_5"
+                          android:visibility="gone">
+                <LinearLayout android:orientation="horizontal" android:layout_width="match_parent"
+                              android:layout_height="match_parent">
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                               android:id="@+id/img_dash_28" android:src="@drawable/square"
+                               android:layout_marginLeft="50px" android:layout_marginRight="26px"/>
+                    <TextView android:layout_width="970px" android:layout_height="wrap_content"
+                              android:text="적당량의 음식을 규칙적으로 섭취합니다. "
+                              android:id="@+id/tv_note_content_28" android:textColor="#232323"
+                              android:gravity="center_vertical" android:layout_marginLeft="50px"
+                              android:textSize="35px"/>
+                </LinearLayout>
+                <ImageView android:layout_width="match_parent" android:layout_height="wrap_content"
+                           android:id="@+id/line_sub_23" android:src="@drawable/underline_grey"
+                           android:layout_gravity="center_horizontal"/>
+                <LinearLayout android:orientation="horizontal" android:layout_width="match_parent"
+                              android:layout_height="match_parent">
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                               android:id="@+id/img_dash_29" android:src="@drawable/square"
+                               android:layout_marginLeft="50px" android:layout_marginRight="26px"/>
+                    <TextView android:layout_width="970px" android:layout_height="wrap_content"
+                              android:text="일상생활 내에서의 신체활동량을 늘립니다. "
+                              android:id="@+id/tv_note_content_29" android:textColor="#232323"
+                              android:gravity="center_vertical" android:layout_marginLeft="50px"
+                              android:textSize="35px"/>
+                </LinearLayout>
+                <ImageView android:layout_width="match_parent" android:layout_height="wrap_content"
+                           android:id="@+id/line_sub_24" android:src="@drawable/underline_grey"
+                           android:layout_gravity="center_horizontal"/>
+                <LinearLayout android:orientation="horizontal" android:layout_width="match_parent"
+                              android:layout_height="match_parent">
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                               android:id="@+id/img_dash_30" android:src="@drawable/square"
+                               android:layout_marginLeft="50px" android:layout_marginRight="26px"/>
+                    <TextView android:layout_width="970px" android:layout_height="wrap_content"
+                              android:text="커피와 술을 자제하고, 금연을 실시합니다. "
+                              android:id="@+id/tv_note_content_30" android:textColor="#232323"
+                              android:gravity="center_vertical" android:layout_marginLeft="50px"
+                              android:textSize="35px"/>
+                </LinearLayout>
+                <ImageView android:layout_width="match_parent" android:layout_height="wrap_content"
+                           android:id="@+id/line_sub_25" android:src="@drawable/underline_grey"
+                           android:layout_gravity="center_horizontal"/>
+                <LinearLayout android:orientation="horizontal" android:layout_width="match_parent"
+                              android:layout_height="match_parent">
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                               android:id="@+id/img_dash_31" android:src="@drawable/square"
+                               android:layout_marginLeft="50px" android:layout_marginRight="26px"/>
+                    <TextView android:layout_width="970px" android:layout_height="wrap_content"
+                              android:text="물은 하루 1리터 이상 섭취합니다. "
+                              android:id="@+id/tv_note_content_31" android:textColor="#232323"
+                              android:gravity="center_vertical" android:layout_marginLeft="50px"
+                              android:textSize="35px"/>
+                </LinearLayout>
+                <ImageView android:layout_width="match_parent" android:layout_height="wrap_content"
+                           android:id="@+id/line_sub_26" android:src="@drawable/underline_grey"
+                           android:layout_gravity="center_horizontal"/>
+                <LinearLayout android:orientation="horizontal" android:layout_width="match_parent"
+                              android:layout_height="match_parent">
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                               android:id="@+id/img_dash_32" android:src="@drawable/square"
+                               android:layout_marginLeft="50px" android:layout_marginRight="26px"/>
+                    <TextView android:layout_width="970px" android:layout_height="wrap_content"
+                              android:text="충분한 수면을 취하며, 스트레스 상황에 적절하게 대처합니다. "
+                              android:id="@+id/tv_note_content_32" android:textColor="#232323"
+                              android:gravity="center_vertical" android:layout_marginLeft="50px"
+                              android:textSize="35px"/>
+                </LinearLayout>
+                <ImageView android:layout_width="match_parent" android:layout_height="wrap_content"
+                           android:id="@+id/line_sub_27" android:src="@drawable/underline_grey"
+                           android:layout_gravity="center_horizontal"/>
+                <LinearLayout android:orientation="horizontal" android:layout_width="match_parent"
+                              android:layout_height="match_parent">
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                               android:id="@+id/img_dash_33" android:src="@drawable/square"
+                               android:layout_marginLeft="50px" android:layout_marginRight="26px"/>
+                    <TextView android:layout_width="970px" android:layout_height="wrap_content"
+                              android:text="정기적으로 건강검진을 받습니다. "
+                              android:id="@+id/tv_note_content_33" android:textColor="#232323"
+                              android:gravity="center_vertical" android:layout_marginLeft="50px"
+                              android:textSize="35px"/>
+                </LinearLayout>
+                <ImageView android:layout_width="match_parent" android:layout_height="wrap_content"
+                           android:id="@+id/line_sub_28" android:src="@drawable/underline_grey"
+                           android:layout_gravity="center_horizontal"/>
+                <LinearLayout android:orientation="horizontal" android:layout_width="match_parent"
+                              android:layout_height="match_parent">
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                               android:id="@+id/img_dash_34" android:src="@drawable/square"
+                               android:layout_marginLeft="50px" android:layout_marginRight="26px"/>
+                    <TextView android:layout_width="970px" android:layout_height="wrap_content"
+                              android:text="6가지 건강수치를 기억합니다. "
+                              android:id="@+id/tv_note_content_34" android:textColor="#232323"
+                              android:gravity="center_vertical" android:layout_marginLeft="50px"
+                              android:textSize="35px"/>
+                </LinearLayout>
+                <ImageView android:layout_width="match_parent" android:layout_height="wrap_content"
+                           android:id="@+id/imageView121232" android:src="@drawable/underline_grey"
+                           android:layout_gravity="center_horizontal"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent"
+                          android:layout_height="wrap_content" android:background="#ffffff"
+                          android:id="@+id/layout_content_6">
+                <TextView android:layout_width="896px" android:layout_height="160px" android:text="7. 6가지 건강수치란?"
+                          android:id="@+id/tv_note_list_6" android:gravity="center_vertical" android:textColor="#232323"
+                          android:textSize="43px" android:layout_marginLeft="50px"/>
+                <ImageView android:layout_width="35px" android:layout_height="24px" android:id="@+id/img_go_list_6"
+                           android:layout_gravity="center_vertical" android:src="@drawable/closed"
+                           android:layout_marginRight="50px"/>
+            </LinearLayout>
+            <ImageView android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/imageview1392"
+                       android:src="@drawable/underline_grey"/>
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent"
+                          android:layout_height="match_parent" android:background="#ffffff" android:id="@+id/content_6"
+                          android:visibility="gone">
+                <LinearLayout android:orientation="horizontal" android:layout_width="match_parent"
+                              android:layout_height="match_parent">
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                               android:id="@+id/img_dash_35" android:src="@drawable/square"
+                               android:layout_marginLeft="50px" android:layout_marginRight="26px"/>
+                    <TextView android:layout_width="970px" android:layout_height="wrap_content"
+                              android:text="비만과 만성질환 예방을 위해 중요시 되는 6가지 건강수치로는 허리둘레, 체질량지수(BMI), 혈압, LDL-콜레스테롤, 당화혈색소, ALT 등이 있습니다. "
+                              android:id="@+id/tv_note_content_35" android:textColor="#232323"
+                              android:gravity="center_vertical" android:layout_marginLeft="50px"
+                              android:textSize="35px"/>
+                </LinearLayout>
+                <ImageView android:layout_width="match_parent" android:layout_height="wrap_content"
+                           android:id="@+id/imageView13323" android:src="@drawable/underline_grey"
+                           android:layout_gravity="center_horizontal"/>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
+

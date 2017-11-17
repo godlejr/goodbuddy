@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="170dp"
+        android:layout_height="1dp"
+        android:layout_gravity="left"
+        android:layout_marginTop="15dp"
+        android:layout_weight="0.2"
+        android:padding="5dp"
+        android:src="@drawable/intro_logo_nhis" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_weight="1.2"
+        android:padding="30dp"
+        android:src="@drawable/intro_heart" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginBottom="50dp"
+        android:layout_marginLeft="75dp"
+        android:layout_marginRight="75dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_weight="0.7"
+            android:gravity="bottom"
+            android:text="ID"
+            android:textColor="#444"
+            android:textSize="12sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.7"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/et_login_email"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_weight="1"
+                android:background="@null"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:textColor="#444"
+                android:textSize="15sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_gravity="bottom"
+                android:background="#eaeaea" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="20dp"
+            android:layout_weight="0.7"
+            android:gravity="bottom"
+            android:text="PASSWORD"
+            android:textColor="#444"
+            android:textSize="12sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.7"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/et_login_password"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_weight="1"
+                android:background="@null"
+                android:ems="10"
+                android:inputType="textPassword"
+                android:textColor="#444"
+                android:textSize="15sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_gravity="bottom"
+                android:background="#eaeaea" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_login"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="30dp"
+            android:layout_weight="0.7"
+            android:background="@drawable/round_corner_border_gray_r30"
+            android:text="로그인"
+            android:textColor="#444"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/tv_login_join"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:gravity="center_horizontal"
+            android:text="굿버디가 처음이신가요? 회원가입" />
+    </LinearLayout>
+
+</LinearLayout>

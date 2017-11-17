@@ -1,18 +1,551 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.demand.goodbuddy.MainActivity">
+    android:background="#fff"
+    tools:context="com.demand.goodbuddy.main.base.activity.MainActivity">
 
-    <TextView
+    <android.support.v4.widget.DrawerLayout
+        android:id="@+id/drawerlayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#fff"
+        android:fitsSystemWindows="false">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <include
+                layout="@layout/toolbar_main"
+                android:layout_width="match_parent"
+                android:layout_height="50dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/grayLine" />
+
+            <android.support.v4.widget.NestedScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="350dp"
+                        android:layout_marginTop="20dp">
+
+                        <ImageView
+                            android:id="@+id/iv_main_bg"
+                            android:layout_width="match_parent"
+                            android:layout_height="350dp"
+                            android:visibility="visible" />
+
+                        <ImageView
+                            android:id="@+id/iv_main_rainbow"
+                            android:layout_width="100dp"
+                            android:layout_height="60dp"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginRight="70dp"
+                            android:layout_marginTop="45dp"
+                            android:visibility="visible" />
+
+                        <ImageView
+                            android:id="@+id/iv_main_thunderbolt_left"
+                            android:layout_width="30dp"
+                            android:layout_height="70dp"
+                            android:layout_gravity="center"
+                            android:layout_marginBottom="50dp"
+                            android:layout_marginRight="85dp"
+                            android:visibility="gone" />
+
+                        <ImageView
+                            android:id="@+id/iv_main_thunderbolt_right"
+                            android:layout_width="30dp"
+                            android:layout_height="70dp"
+                            android:layout_gravity="center"
+                            android:layout_marginBottom="50dp"
+                            android:layout_marginLeft="85dp"
+                            android:visibility="gone" />
+
+                        <ImageView
+                            android:id="@+id/iv_main_sun"
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:layout_gravity="center"
+                            android:layout_marginBottom="90dp"
+                            android:layout_marginRight="70dp"
+                            android:visibility="visible" />
+
+                        <ImageView
+                            android:id="@+id/iv_main_rain_left"
+                            android:layout_width="60dp"
+                            android:layout_height="140dp"
+                            android:layout_gravity="center"
+                            android:layout_marginBottom="30dp"
+                            android:layout_marginRight="85dp"
+                            android:visibility="gone" />
+
+                        <ImageView
+                            android:id="@+id/iv_main_rain_right"
+                            android:layout_width="60dp"
+                            android:layout_height="140dp"
+                            android:layout_gravity="center"
+                            android:layout_marginBottom="30dp"
+                            android:layout_marginLeft="85dp"
+                            android:visibility="gone" />
+
+                        <ImageView
+                            android:id="@+id/iv_main_cloud_left"
+                            android:layout_width="90dp"
+                            android:layout_height="25dp"
+                            android:layout_gravity="center"
+                            android:layout_marginBottom="70dp"
+                            android:layout_marginRight="90dp"
+                            android:visibility="visible" />
+
+                        <ImageView
+                            android:id="@+id/iv_main_cloud_right"
+                            android:layout_width="90dp"
+                            android:layout_height="25dp"
+                            android:layout_gravity="center"
+                            android:layout_marginBottom="80dp"
+                            android:layout_marginLeft="70dp"
+                            android:visibility="visible" />
+
+                        <ImageView
+                            android:id="@+id/iv_main_body"
+                            android:layout_width="match_parent"
+                            android:layout_height="350dp" />
+
+                        <ImageView
+                            android:id="@+id/iv_main_face"
+                            android:layout_width="match_parent"
+                            android:layout_height="350dp" />
+
+                        <ImageView
+                            android:id="@+id/iv_main_leg"
+                            android:layout_width="match_parent"
+                            android:layout_height="350dp" />
+
+                        <ImageView
+                            android:id="@+id/iv_main_emotion"
+                            android:layout_width="match_parent"
+                            android:layout_height="350dp" />
+
+                    </FrameLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginTop="20dp"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:id="@+id/ll_main_activitytab"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/main_chartbackground_activity"
+                            android:orientation="vertical">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+                                <ImageView
+                                    android:layout_width="20dp"
+                                    android:layout_height="20dp"
+                                    android:layout_gravity="center_vertical"
+                                    android:layout_marginLeft="15dp"
+                                    android:layout_marginRight="15dp"
+                                    android:src="@drawable/main_tabicon_activity" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="10dp"
+                                    android:layout_marginTop="10dp"
+                                    android:layout_weight="1"
+                                    android:text="활동량"
+                                    android:textColor="@color/white"
+                                    android:textSize="16sp"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:id="@+id/tv_main_averageactivity"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginRight="15dp"
+                                    android:layout_weight="1"
+                                    android:gravity="right|center_vertical"
+                                    android:text="평균 0걸음"
+                                    android:textColor="@color/white"
+                                    android:textSize="16sp" />
+
+                            </LinearLayout>
+
+                            <com.github.mikephil.charting.charts.BarChart
+                                android:id="@+id/chart_main_activity"
+                                android:layout_width="match_parent"
+                                android:layout_height="150dp"
+                                android:layout_marginBottom="15dp"
+                                android:layout_marginLeft="10dp"
+
+                                android:layout_marginRight="10dp"
+                                android:scrollbars="horizontal"
+                                android:visibility="gone" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/ll_main_bloodpressuretab"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="7dp"
+                            android:background="@drawable/main_chartbackground_bloodpresure"
+                            android:orientation="vertical">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="horizontal">
+
+                                <ImageView
+                                    android:layout_width="20dp"
+                                    android:layout_height="20dp"
+                                    android:layout_gravity="center_vertical"
+                                    android:layout_marginLeft="15dp"
+                                    android:layout_marginRight="15dp"
+                                    android:src="@drawable/main_tabicon_bloodpressure" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="10dp"
+                                    android:layout_marginTop="10dp"
+                                    android:layout_weight="1"
+                                    android:text="혈압"
+                                    android:textColor="@color/white"
+                                    android:textSize="16sp"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:gravity="right|center_vertical"
+                                    android:text="평균 "
+                                    android:textColor="@color/white"
+                                    android:textSize="16sp" />
+
+                                <TextView
+                                    android:id="@+id/tv_main_averageminbloodpressure"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent"
+
+                                    android:gravity="right|center_vertical"
+                                    android:text="0"
+                                    android:textColor="@color/white"
+                                    android:textSize="16sp" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent"
+                                    android:gravity="center"
+                                    android:text="/"
+                                    android:textColor="@color/white"
+                                    android:textSize="16sp" />
+
+                                <TextView
+                                    android:id="@+id/tv_main_averagemaxbloodpressure"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent"
+                                    android:gravity="right|center_vertical"
+                                    android:text="0"
+                                    android:textColor="@color/white"
+                                    android:textSize="16sp" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginRight="15dp"
+                                    android:gravity="right|center_vertical"
+                                    android:text="mmHg"
+                                    android:textColor="@color/white"
+                                    android:textSize="16sp" />
+
+                            </LinearLayout>
+
+                            <com.github.mikephil.charting.charts.LineChart
+                                android:id="@+id/chart_main_bloodpressure"
+                                android:layout_width="match_parent"
+                                android:layout_height="150dp"
+                                android:layout_marginBottom="15dp"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginRight="10dp"
+                                android:visibility="gone" />
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/ll_main_bloodsugartab"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="7dp"
+                            android:background="@drawable/main_chartbackground_bmi"
+                            android:orientation="vertical">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+                                <ImageView
+                                    android:layout_width="20dp"
+                                    android:layout_height="20dp"
+                                    android:layout_gravity="center_vertical"
+                                    android:layout_marginLeft="15dp"
+                                    android:layout_marginRight="15dp"
+                                    android:src="@drawable/main_tabicon_bloodsugar" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="10dp"
+                                    android:layout_marginTop="10dp"
+                                    android:layout_weight="1"
+                                    android:text="혈당"
+                                    android:textColor="@color/white"
+                                    android:textSize="16sp"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:id="@+id/tv_main_averagebloodsugar"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginRight="15dp"
+                                    android:layout_weight="1"
+                                    android:gravity="right|center_vertical"
+                                    android:text="평균 0mmHg"
+                                    android:textColor="@color/white"
+                                    android:textSize="16sp" />
+
+                            </LinearLayout>
+
+                            <com.github.mikephil.charting.charts.LineChart
+                                android:id="@+id/chart_main_bloodsugar"
+                                android:layout_width="match_parent"
+                                android:layout_height="150dp"
+                                android:layout_marginBottom="15dp"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginRight="10dp"
+                                android:visibility="gone" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/ll_main_diettab"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="7dp"
+                            android:background="@drawable/main_chartbackground_diet"
+                            android:orientation="vertical">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+                                <ImageView
+                                    android:layout_width="20dp"
+                                    android:layout_height="20dp"
+                                    android:layout_gravity="center_vertical"
+                                    android:layout_marginLeft="15dp"
+                                    android:layout_marginRight="15dp"
+                                    android:src="@drawable/main_tabicon_diet" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="10dp"
+                                    android:layout_marginTop="10dp"
+                                    android:layout_weight="1"
+                                    android:text="식단 자가진단"
+                                    android:textColor="@color/white"
+                                    android:textSize="16sp"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:id="@+id/tv_main_averagediet"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginRight="15dp"
+                                    android:layout_weight="1"
+                                    android:gravity="right|center_vertical"
+                                    android:text="평균 0점"
+                                    android:textColor="@color/white"
+                                    android:textSize="16sp" />
+
+                            </LinearLayout>
+
+                            <com.github.mikephil.charting.charts.LineChart
+                                android:id="@+id/chart_main_diet"
+                                android:layout_width="match_parent"
+                                android:layout_height="150dp"
+                                android:layout_marginBottom="15dp"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginRight="10dp"
+                                android:visibility="gone" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/ll_main_bmitab"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="7dp"
+                            android:background="@drawable/main_chartbackground_bmi"
+                            android:orientation="vertical">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+                                <ImageView
+                                    android:layout_width="20dp"
+                                    android:layout_height="20dp"
+                                    android:layout_gravity="center_vertical"
+                                    android:layout_marginLeft="15dp"
+                                    android:layout_marginRight="15dp"
+                                    android:src="@drawable/main_tabicon_bmi" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="10dp"
+                                    android:layout_marginTop="10dp"
+                                    android:layout_weight="1"
+                                    android:text="BMI"
+                                    android:textColor="@color/white"
+                                    android:textSize="16sp"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:id="@+id/tv_main_averagebmi"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginRight="15dp"
+                                    android:layout_weight="1"
+                                    android:gravity="right|center_vertical"
+                                    android:text="평균 0점"
+                                    android:textColor="@color/white"
+                                    android:textSize="16sp" />
+
+                            </LinearLayout>
+
+
+                            <com.github.mikephil.charting.charts.LineChart
+                                android:id="@+id/chart_main_bmi"
+                                android:layout_width="match_parent"
+                                android:layout_height="150dp"
+                                android:layout_marginBottom="15dp"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginRight="10dp"
+                                android:visibility="gone" />
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </LinearLayout>
+            </android.support.v4.widget.NestedScrollView>
+        </LinearLayout>
+
+        <android.support.design.widget.NavigationView
+            android:id="@+id/navigationview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            android:background="#fff"
+            app:headerLayout="@layout/drawer_header"
+            app:itemTextColor="#000"
+            app:menu="@menu/menu_main"
+            app:theme="@style/NavigationDrawer" />
+    </android.support.v4.widget.DrawerLayout>
+
+    <FrameLayout
+        android:id="@+id/fl_main_overlay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/overlay"
+        android:visibility="visible">
+
+    </FrameLayout>
+
+    <com.getbase.floatingactionbutton.FloatingActionsMenu
+        android:id="@+id/fab_main_menu"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:layout_gravity="right|bottom"
+        android:layout_marginBottom="@dimen/fab_labels_margin"
+        android:layout_marginRight="@dimen/fab_labels_margin"
+        app:fab_addButtonColorNormal="@color/colorAccent"
+        app:fab_addButtonColorPressed="@color/colorAccent"
+        fab:fab_addButtonPlusIconColor="@color/white"
+        fab:fab_addButtonStrokeVisible="false"
+        fab:fab_labelStyle="@style/menuLabelStyle"
+        fab:fab_labelsPosition="left">
 
-</android.support.constraint.ConstraintLayout>
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fab_main_pedometer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            fab:fab_colorNormal="@color/white"
+            fab:fab_colorPressed="@color/white"
+            fab:fab_icon="@drawable/main_fab_nfc"
+            fab:fab_plusIconColor="@color/white"
+            fab:fab_size="mini"
+            fab:fab_title="외부 연동" />
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fab_main_record"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+
+            fab:fab_colorNormal="@color/white"
+            fab:fab_colorPressed="@color/white"
+            fab:fab_icon="@drawable/main_fab_record"
+            fab:fab_plusIconColor="@color/white"
+            fab:fab_size="mini"
+            fab:fab_title="혈압/혈당/BMI" />
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fab_main_diet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+
+            fab:fab_colorNormal="@color/white"
+            fab:fab_colorPressed="@color/white"
+            fab:fab_icon="@drawable/main_fab_diet"
+            fab:fab_plusIconColor="@color/white"
+            fab:fab_size="mini"
+            fab:fab_title="식습관 자가진단" />
+    </com.getbase.floatingactionbutton.FloatingActionsMenu>
+
+</android.support.design.widget.CoordinatorLayout>

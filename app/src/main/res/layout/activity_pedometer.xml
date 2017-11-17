@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical">
+
+    <include
+        layout="@layout/toolbar_back"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/grayLine" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_weight="2"
+        android:src="@drawable/pedometer" />
+
+    <!--<TextView-->
+    <!--android:id="@+id/tv_pedometer_count"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:contextClickable="true"-->
+    <!--android:gravity="center_horizontal"-->
+    <!--android:text="0"-->
+    <!--android:textSize="18sp" />-->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_weight="0.8"
+        android:background="@color/lightGray"
+        android:gravity="center"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:text="\n스마트폰 만보계를 통해 측정된\n활동량 데이터를 전송할 수 있습니다.\n"
+        android:textColor="@color/textColor"
+        android:textSize="16sp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:orientation="vertical"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:layout_width="1dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="낮음" />
+
+                <LinearLayout
+                    android:layout_width="1dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center_horizontal"
+                        android:text="민감도" />
+
+                    <TextView
+                        android:id="@+id/tv_pedometer_sensitivity"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="1dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:text="높음" />
+            </LinearLayout>
+
+            <SeekBar
+                android:id="@+id/sb_pedometer_sensitivity"
+                style="@style/PedometerSeekBar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:max="8"
+                android:thumb="@drawable/pedometer_thumb" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_gravity="bottom"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/btn_pedometer_connection"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/round_corner_teal_r10"
+            android:text="연결"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/btn_pedometer_disconnection"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/round_corner_teal_r10"
+            android:text="연결 해제"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+    </FrameLayout>
+
+</LinearLayout>

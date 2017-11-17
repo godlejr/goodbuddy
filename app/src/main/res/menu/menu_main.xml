@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_all"
+        android:title="전체 메뉴">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/menu_home"
+                    android:checkable="true"
+                    android:checked="false"
+                    android:icon="@drawable/menu_home"
+                    android:title="나의 기록" />
+      
+                <item
+                    android:id="@+id/menu_note"
+                    android:checkable="true"
+                    android:checked="false"
+                    android:icon="@drawable/menu_note"
+                    android:title="건강관리 수첩" />
+                <item
+                    android:id="@+id/menu_recommend"
+                    android:checkable="true"
+                    android:checked="false"
+                    android:icon="@drawable/menu_contents"
+                    android:title="추천 콘텐츠" />
+                <item
+                    android:id="@+id/menu_message"
+                    android:checkable="true"
+                    android:checked="false"
+                    android:icon="@drawable/menu_message"
+                    android:title="관리자 메시지" />
+
+                <item
+                    android:id="@+id/menu_agreement"
+                    android:checkable="true"
+                    android:checked="false"
+                    android:icon="@drawable/agreement"
+                    android:title="개인 정보 취급 방침 및 약관" />
+
+            </group>
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/menu_setting"
+        android:title="설정">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/menu_pedometer"
+                    android:checkable="true"
+                    android:checked="false"
+                    android:icon="@drawable/menu_device"
+                    android:title="외부 연동" />
+                <item
+                    android:id="@+id/menu_logout"
+                    android:checkable="true"
+                    android:checked="false"
+                    android:icon="@drawable/menu_logout"
+                    android:title="로그아웃" />
+            </group>
+        </menu>
+
+    </item>
+</menu>

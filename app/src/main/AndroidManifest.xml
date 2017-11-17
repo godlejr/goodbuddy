@@ -2,20 +2,85 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.demand.goodbuddy">
 
+    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
+        android:largeHeap="true"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".main.intro.activity.IntroActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-    </application>
 
+        <activity android:name=".main.base.activity.MainActivity"
+            android:launchMode="singleInstance"/>
+        <activity android:name=".login.base.activity.LoginActivity" />
+        <activity android:name=".record.activity.RecordActivity" />
+        <activity android:name=".diet.activity.DietActivity" />
+        <activity android:name=".pedometer.activity.PedometerActivity" />
+        <activity android:name=".note.base.activity.NoteActivity" />
+        <activity android:name=".note.base.activity.NoteActivity_prev" />
+        <activity android:name=".note.detail.fat.NoteFatActivity" />
+        <activity android:name=".note.detail.exercise1.NoteExercise1Activity" />
+        <activity android:name=".note.detail.exercise2.NoteExercise2Activity" />
+        <activity android:name=".note.detail.food.NoteFoodActivity"/>
+        <activity android:name=".note.detail.stress.NoteStressActivity"/>
+        <activity android:name=".note.detail.sugar1.NoteSugar1Activity"/>
+        <activity android:name=".note.detail.sugar2.NoteSugar2Activity"/>
+        <activity android:name=".note.detail.nonsmoking.NoteNonSmokingActivity"/>
+        <activity android:name=".note.detail.pressure.NotePressureActivity"/>
+        <activity android:name=".recommend.RecommendActivity"/>
+        <activity android:name=".recommend.RecommendDetailActivity"/>
+        <activity android:name=".message.activity.MessageActivity"/>
+        <activity android:name=".login.create.activity.JoinActivity"/>
+        <activity android:name=".user.edit.activity.UserEditActivity"/>
+        <activity android:name=".main.agreement.AgreementActivity"/>
+
+
+        <activity
+            android:name=".dialog.popup.notification.activity.NotificationPopupActivity"
+            android:theme="@style/Theme.AppCompat.Dialog" />
+
+        <service android:name=".fcm.message.service.FirebaseMessageService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <service android:name=".fcm.instance.service.FirebaseInstanceIDService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+
+        <service android:name=".service.pedometer.service.PedometerService"/>
+
+        <receiver android:name=".receiver.pedometer.receiver.PedometerReceiver" />
+
+        <receiver
+            android:name=".broadcast.BootReceiver"
+            android:enabled="true"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+
+
+    </application>
 </manifest>

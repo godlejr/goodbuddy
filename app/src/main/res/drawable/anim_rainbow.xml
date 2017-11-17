@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android" android:oneshot="false">
+
+    <item android:drawable="@drawable/main_rainbow1" android:duration="500" />
+    <item android:drawable="@drawable/main_rainbow2" android:duration="150" />
+    <item android:drawable="@drawable/main_rainbow3" android:duration="150" />
+    <item android:drawable="@drawable/main_rainbow4" android:duration="150" />
+    <item android:drawable="@drawable/main_rainbow5" android:duration="150" />
+    <item android:drawable="@drawable/main_rainbow6" android:duration="150" />
+    <item android:drawable="@drawable/main_rainbow7" android:duration="150" />
+    <item android:drawable="@drawable/main_rainbow8" android:duration="150" />
+    <item android:drawable="@drawable/main_rainbow9" android:duration="150" />
+    <item android:drawable="@drawable/main_rainbow10" android:duration="150" />
+
+
+</animation-list>

@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#f5f5f5"
+    android:orientation="vertical">
+
+    <include
+        layout="@layout/toolbar_back"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+
+
+
+        <android.support.v4.widget.NestedScrollView
+            android:id="@+id/nsv_recommend"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:scrollbars="none">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:visibility="visible">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="12dp"
+                        android:layout_marginTop="15dp"
+                        android:focusableInTouchMode="true"
+                        android:text="데일리 건강관리 Tip"
+                        android:textColor="#232323"
+                        android:textSize="20sp" />
+
+                    <android.support.v7.widget.RecyclerView
+                        android:id="@+id/rv_recommend"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:focusableInTouchMode="true"
+                        android:nestedScrollingEnabled="false" />
+
+                    <!--<FrameLayout-->
+                    <!--android:id="@+id/tip_0"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="150dp"-->
+                    <!--android:background="#ffffff">-->
+
+                    <!--<TextView-->
+                    <!--android:id="@+id/cont_0"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_marginBottom="25dp"-->
+                    <!--android:layout_marginLeft="35dp"-->
+                    <!--android:layout_marginTop="40dp"-->
+                    <!--android:textColor="#232323"-->
+                    <!--android:textSize="26sp" />-->
+
+                    <!--<TextView-->
+                    <!--android:id="@+id/explain_0"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_marginLeft="35dp"-->
+                    <!--android:layout_marginTop="100dp"-->
+                    <!--android:textColor="#232323"-->
+                    <!--android:textSize="18sp" />-->
+
+                    <!--<ImageView-->
+                    <!--android:id="@+id/arrow_0"-->
+                    <!--android:layout_width="16dp"-->
+                    <!--android:layout_height="26dp"-->
+                    <!--android:layout_gravity="right|center_vertical"-->
+                    <!--android:layout_marginRight="25dp"-->
+                    <!--android:src="@drawable/arrow_gry"-->
+                    <!--android:visibility="visible" />-->
+                    <!--</FrameLayout>-->
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:visibility="gone">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="12dp"
+                        android:layout_marginTop="25dp"
+                        android:text="모바일 콘텐츠"
+                        android:textColor="#232323"
+                        android:textSize="21sp"
+                        android:visibility="visible" />
+
+                    <FrameLayout
+                        android:id="@+id/app_0"
+                        android:layout_width="match_parent"
+                        android:layout_height="110dp"
+                        android:layout_marginBottom="15dp"
+                        android:background="#23a89a"
+                        android:visibility="visible">
+
+                        <TextView
+                            android:id="@+id/cont_3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginLeft="35dp"
+                            android:text="몸챙김 호흡법 1"
+                            android:textColor="#ffffff"
+                            android:textSize="30sp" />
+
+                        <ImageView
+                            android:id="@+id/arrow_3"
+                            android:layout_width="16dp"
+                            android:layout_height="26dp"
+                            android:layout_gravity="right|center_vertical"
+                            android:layout_marginRight="25dp"
+                            android:src="@drawable/arrow_wht" />
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:id="@+id/app_1"
+                        android:layout_width="match_parent"
+                        android:layout_height="110dp"
+                        android:layout_marginBottom="15dp"
+                        android:background="#23a89a"
+                        android:visibility="gone">
+
+                        <TextView
+                            android:id="@+id/cont_4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="25dp"
+                            android:layout_marginLeft="35dp"
+                            android:layout_marginTop="40dp"
+                            android:text="몸챙김 호흡법 2"
+                            android:textColor="#ffffff"
+                            android:textSize="30sp" />
+
+                        <ImageView
+                            android:id="@+id/arrow_4"
+                            android:layout_width="16dp"
+                            android:layout_height="26dp"
+                            android:layout_gravity="right|center_vertical"
+                            android:layout_marginRight="25dp"
+                            android:src="@drawable/arrow_wht" />
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:id="@+id/app_2"
+                        android:layout_width="match_parent"
+                        android:layout_height="110dp"
+                        android:layout_marginBottom="15dp"
+                        android:background="#ef5350"
+                        android:visibility="gone">
+
+                        <TextView
+                            android:id="@+id/cont_8"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="25dp"
+                            android:layout_marginLeft="35dp"
+                            android:layout_marginTop="40dp"
+                            android:text="자기애 명상"
+                            android:textColor="#ffffff"
+                            android:textSize="30sp" />
+
+                        <ImageView
+                            android:id="@+id/arrow_8"
+                            android:layout_width="16dp"
+                            android:layout_height="26dp"
+                            android:layout_gravity="right|center_vertical"
+                            android:layout_marginRight="25dp"
+                            android:src="@drawable/arrow_wht" />
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:id="@+id/app_3"
+                        android:layout_width="match_parent"
+                        android:layout_height="110dp"
+                        android:layout_marginBottom="15dp"
+                        android:background="#ef5350"
+                        android:visibility="gone">
+
+                        <TextView
+                            android:id="@+id/cont_9"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="25dp"
+                            android:layout_marginLeft="35dp"
+                            android:layout_marginTop="40dp"
+                            android:text="연민 명상"
+                            android:textColor="#ffffff"
+                            android:textSize="30sp" />
+
+                        <ImageView
+                            android:id="@+id/arrow_9"
+                            android:layout_width="16dp"
+                            android:layout_height="26dp"
+                            android:layout_gravity="right|center_vertical"
+                            android:layout_marginRight="25dp"
+                            android:src="@drawable/arrow_wht" />
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:id="@+id/app_6"
+                        android:layout_width="match_parent"
+                        android:layout_height="110dp"
+                        android:layout_marginBottom="15dp"
+                        android:background="#ef5350"
+                        android:visibility="gone">
+
+                        <TextView
+                            android:id="@+id/cont_12"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="25dp"
+                            android:layout_marginLeft="35dp"
+                            android:layout_marginTop="40dp"
+                            android:text="자애 명상"
+                            android:textColor="#ffffff"
+                            android:textSize="30sp" />
+
+                        <ImageView
+                            android:id="@+id/arrow_12"
+                            android:layout_width="16dp"
+                            android:layout_height="26dp"
+                            android:layout_gravity="right|center_vertical"
+                            android:layout_marginRight="25dp"
+                            android:src="@drawable/arrow_wht" />
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:id="@+id/app_4"
+                        android:layout_width="match_parent"
+                        android:layout_height="110dp"
+                        android:layout_marginBottom="15dp"
+                        android:background="#f37047"
+                        android:visibility="gone">
+
+                        <TextView
+                            android:id="@+id/cont_10"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="25dp"
+                            android:layout_marginLeft="35dp"
+                            android:layout_marginTop="40dp"
+                            android:text="Smoody"
+                            android:textColor="#ffffff"
+                            android:textSize="30sp" />
+
+                        <ImageView
+                            android:id="@+id/arrow_10"
+                            android:layout_width="16dp"
+                            android:layout_height="26dp"
+                            android:layout_gravity="right|center_vertical"
+                            android:layout_marginRight="25dp"
+                            android:src="@drawable/arrow_wht" />
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:id="@+id/app_5"
+                        android:layout_width="match_parent"
+                        android:layout_height="110dp"
+                        android:layout_marginBottom="15dp"
+                        android:background="#232323"
+                        android:visibility="gone">
+
+                        <TextView
+                            android:id="@+id/cont_11"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="25dp"
+                            android:layout_marginLeft="35dp"
+                            android:layout_marginTop="40dp"
+                            android:text="HearWeGo"
+                            android:textColor="#ffffff"
+                            android:textSize="30sp" />
+
+                        <ImageView
+                            android:id="@+id/arrow_11"
+                            android:layout_width="16dp"
+                            android:layout_height="26dp"
+                            android:layout_gravity="right|center_vertical"
+                            android:layout_marginRight="25dp"
+                            android:src="@drawable/arrow_wht" />
+                    </FrameLayout>
+
+                    <TextView
+                        android:id="@+id/view_all_1"
+                        android:layout_width="500dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center_horizontal"
+                        android:background="#fff"
+                        android:gravity="center"
+                        android:text="전체보기"
+                        android:textColor="#232323"
+                        android:textSize="18sp" />
+                </LinearLayout>
+            </LinearLayout>
+        </android.support.v4.widget.NestedScrollView>
+
+</LinearLayout>

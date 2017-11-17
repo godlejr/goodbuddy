@@ -1,0 +1,497 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:background="#f5f5f5">
+    <include layout="@layout/inc_titlebar" android:id="@+id/include2" android:layout_width="match_parent"
+             android:layout_height="wrap_content"/>
+    <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/sv_note_7_2" android:layout_gravity="center_horizontal">
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent"
+                          android:layout_height="wrap_content" android:background="#ffffff"
+                          android:id="@+id/layout_content_0">
+                <TextView android:layout_width="896px" android:layout_height="160px" android:text="subtitle"
+                          android:id="@+id/tv_note_list_0" android:gravity="center_vertical" android:textColor="#232323"
+                          android:textSize="43px" android:layout_marginLeft="50px"/>
+                <ImageView android:layout_width="35px" android:layout_height="24px" android:id="@+id/img_go_list_0"
+                           android:layout_gravity="center_vertical" android:src="@drawable/closed"
+                           android:layout_marginRight="50px"/>
+            </LinearLayout>
+            <ImageView android:layout_width="match_parent" android:layout_height="wrap_content"
+                       android:id="@+id/imageView80" android:src="@drawable/underline_grey"/>
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent"
+                          android:layout_height="match_parent" android:background="#ffffff"
+                          android:id="@+id/content_0" android:visibility="gone">
+                <LinearLayout android:orientation="horizontal" android:layout_width="match_parent"
+                              android:layout_height="wrap_content">
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                               android:id="@+id/round_0" android:src="@drawable/round"
+                               android:layout_gravity="center_vertical"/>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                              android:text="피하형" android:id="@+id/tv_round_0" android:textColor="#232323"
+                              android:layout_gravity="center_vertical" android:gravity="center_vertical"/>
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:layout_width="match_parent"
+                              android:layout_height="match_parent">
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                               android:id="@+id/img_dash_0" android:src="@drawable/square"
+                               android:layout_marginLeft="50px" android:layout_marginRight="26px"/>
+                    <TextView android:layout_width="970px" android:layout_height="wrap_content"
+                              android:id="@+id/tv_note_content_0" android:textColor="#232323" android:gravity="center_vertical"
+                              android:layout_marginLeft="50px" android:textSize="35px"/>
+                </LinearLayout>
+                <ImageView android:layout_width="match_parent" android:layout_height="wrap_content"
+                           android:id="@+id/line_sub_0" android:src="@drawable/underline_grey"
+                           android:layout_gravity="center_horizontal"/>
+                <LinearLayout android:orientation="horizontal" android:layout_width="match_parent"
+                              android:layout_height="wrap_content">
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                               android:id="@+id/round_1" android:src="@drawable/round"
+                               android:layout_gravity="center_vertical"/>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                              android:text="피하형" android:id="@+id/tv_round_1" android:textColor="#232323"
+                              android:layout_gravity="center_vertical" android:gravity="center_vertical"/>
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:layout_width="match_parent"
+                              android:layout_height="match_parent">
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                               android:id="@+id/img_dash_1" android:src="@drawable/square"
+                               android:layout_marginLeft="50px" android:layout_marginRight="26px"/>
+                    <TextView android:layout_width="970px" android:layout_height="wrap_content"
+                              android:id="@+id/tv_note_content_1" android:textColor="#232323" android:gravity="center_vertical"
+                              android:layout_marginLeft="50px" android:textSize="35px"/>
+                </LinearLayout>
+                <ImageView android:layout_width="match_parent" android:layout_height="wrap_content"
+                           android:id="@+id/line_sub_1" android:src="@drawable/underline_grey"
+                           android:layout_gravity="center_horizontal"/>
+                <LinearLayout android:orientation="horizontal" android:layout_width="match_parent"
+                              android:layout_height="match_parent">
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                               android:id="@+id/img_dash_2" android:src="@drawable/square"
+                               android:layout_marginLeft="50px" android:layout_marginRight="26px"/>
+                    <TextView android:layout_width="970px" android:layout_height="wrap_content"
+                              android:id="@+id/tv_note_content_2" android:textColor="#232323" android:gravity="center_vertical"
+                              android:layout_marginLeft="50px" android:textSize="35px"/>
+                </LinearLayout>
+                <ImageView android:layout_width="match_parent" android:layout_height="wrap_content"
+                           android:id="@+id/line_sub_2" android:src="@drawable/underline_grey"
+                           android:layout_gravity="center_horizontal"/>
+                <LinearLayout android:orientation="horizontal" android:layout_width="match_parent"
+                              android:layout_height="wrap_content">
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                               android:id="@+id/round_2" android:src="@drawable/round"
+                               android:layout_gravity="center_vertical"/>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                              android:text="피하형" android:id="@+id/tv_round_2" android:textColor="#232323"
+                              android:layout_gravity="center_vertical" android:gravity="center_vertical"/>
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:layout_width="match_parent"
+                              android:layout_height="match_parent">
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                               android:id="@+id/img_dash_3" android:src="@drawable/square"
+                               android:layout_marginLeft="50px" android:layout_marginRight="26px"/>
+                    <TextView android:layout_width="970px" android:layout_height="wrap_content"
+                              android:id="@+id/tv_note_content_3" android:textColor="#232323" android:gravity="center_vertical"
+                              android:layout_marginLeft="50px" android:textSize="35px"/>
+                </LinearLayout>
+                <ImageView android:layout_width="match_parent" android:layout_height="wrap_content"
+                           android:id="@+id/line_sub_3" android:src="@drawable/underline_grey"
+                           android:layout_gravity="center_horizontal"/>
+                <LinearLayout android:orientation="horizontal" android:layout_width="match_parent"
+                              android:layout_height="match_parent">
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                               android:id="@+id/img_dash_4" android:src="@drawable/square"
+                               android:layout_marginLeft="50px" android:layout_marginRight="26px"/>
+                    <TextView android:layout_width="970px" android:layout_height="wrap_content"
+                              android:id="@+id/tv_note_content_4" android:textColor="#232323" android:gravity="center_vertical"
+                              android:layout_marginLeft="50px" android:textSize="35px"/>
+                </LinearLayout>
+                <ImageView android:layout_width="match_parent" android:layout_height="wrap_content"
+                           android:id="@+id/line_sub_4" android:src="@drawable/underline_grey"
+                           android:layout_gravity="center_horizontal"/>
+                <LinearLayout android:orientation="horizontal" android:layout_width="match_parent"
+                              android:layout_height="match_parent">
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                               android:id="@+id/img_dash_5" android:src="@drawable/square"
+                               android:layout_marginLeft="50px" android:layout_marginRight="26px"/>
+                    <TextView android:layout_width="970px" android:layout_height="wrap_content"
+                              android:id="@+id/tv_note_content_5" android:textColor="#232323" android:gravity="center_vertical"
+                              android:layout_marginLeft="50px" android:textSize="35px"/>
+                </LinearLayout>
+                <ImageView android:layout_width="match_parent" android:layout_height="wrap_content"
+                           android:id="@+id/line_sub_5" android:src="@drawable/underline_grey"
+                           android:layout_gravity="center_horizontal"/>
+                <LinearLayout android:orientation="horizontal" android:layout_width="match_parent"
+                              android:layout_height="wrap_content">
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                               android:id="@+id/round_3" android:src="@drawable/round"
+                               android:layout_gravity="center_vertical"/>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                              android:text="피하형" android:id="@+id/tv_round_3" android:textColor="#232323"
+                              android:layout_gravity="center_vertical" android:gravity="center_vertical"/>
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:layout_width="match_parent"
+                              android:layout_height="match_parent">
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                               android:id="@+id/img_dash_6" android:src="@drawable/square"
+                               android:layout_marginLeft="50px" android:layout_marginRight="26px"/>
+                    <TextView android:layout_width="970px" android:layout_height="wrap_content"
+                              android:id="@+id/tv_note_content_6" android:textColor="#232323" android:gravity="center_vertical"
+                              android:layout_marginLeft="50px" android:textSize="35px"/>
+                </LinearLayout>
+                <ImageView android:layout_width="match_parent" android:layout_height="wrap_content"
+                           android:id="@+id/line_sub_6" android:src="@drawable/underline_grey"
+                           android:layout_gravity="center_horizontal"/>
+                <LinearLayout android:orientation="horizontal" android:layout_width="match_parent"
+                              android:layout_height="wrap_content">
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                               android:id="@+id/round_4" android:src="@drawable/round"
+                               android:layout_gravity="center_vertical"/>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                              android:text="피하형" android:id="@+id/tv_round_4" android:textColor="#232323"
+                              android:layout_gravity="center_vertical" android:gravity="center_vertical"/>
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:layout_width="match_parent"
+                              android:layout_height="match_parent">
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                               android:id="@+id/img_dash_7" android:src="@drawable/square"
+                               android:layout_marginLeft="50px" android:layout_marginRight="26px"/>
+                    <TextView android:layout_width="970px" android:layout_height="wrap_content"
+                              android:id="@+id/tv_note_content_7" android:textColor="#232323" android:gravity="center_vertical"
+                              android:layout_marginLeft="50px" android:textSize="35px"/>
+                </LinearLayout>
+                <ImageView android:layout_width="match_parent" android:layout_height="wrap_content"
+                           android:id="@+id/line_sub_7" android:src="@drawable/underline_grey"
+                           android:layout_gravity="center_horizontal"/>
+                <LinearLayout android:orientation="horizontal" android:layout_width="match_parent"
+                              android:layout_height="wrap_content">
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                               android:id="@+id/round_5" android:src="@drawable/round"
+                               android:layout_gravity="center_vertical"/>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                              android:text="피하형" android:id="@+id/tv_round_5" android:textColor="#232323"
+                              android:layout_gravity="center_vertical" android:gravity="center_vertical"/>
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:layout_width="match_parent"
+                              android:layout_height="match_parent">
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                               android:id="@+id/img_dash_8" android:src="@drawable/square"
+                               android:layout_marginLeft="50px" android:layout_marginRight="26px"/>
+                    <TextView android:layout_width="970px" android:layout_height="wrap_content"
+                              android:id="@+id/tv_note_content_8" android:textColor="#232323" android:gravity="center_vertical"
+                              android:layout_marginLeft="50px" android:textSize="35px"/>
+                </LinearLayout>
+                <ImageView android:layout_width="match_parent" android:layout_height="wrap_content"
+                           android:id="@+id/line_sub_8" android:src="@drawable/underline_grey"
+                           android:layout_gravity="center_horizontal"/>
+                <LinearLayout android:orientation="horizontal" android:layout_width="match_parent"
+                              android:layout_height="match_parent">
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                               android:id="@+id/img_dash_9" android:src="@drawable/square"
+                               android:layout_marginLeft="50px" android:layout_marginRight="26px"/>
+                    <TextView android:layout_width="970px" android:layout_height="wrap_content"
+                              android:id="@+id/tv_note_content_9" android:textColor="#232323" android:gravity="center_vertical"
+                              android:layout_marginLeft="50px" android:textSize="35px"/>
+                </LinearLayout>
+                <ImageView android:layout_width="match_parent" android:layout_height="wrap_content"
+                           android:id="@+id/line_sub_9" android:src="@drawable/underline_grey"
+                           android:layout_gravity="center_horizontal"/>
+                <LinearLayout android:orientation="horizontal" android:layout_width="match_parent"
+                              android:layout_height="wrap_content">
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                               android:id="@+id/round_6" android:src="@drawable/round"
+                               android:layout_gravity="center_vertical"/>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                              android:text="피하형" android:id="@+id/tv_round_6" android:textColor="#232323"
+                              android:layout_gravity="center_vertical" android:gravity="center_vertical"/>
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:layout_width="match_parent"
+                              android:layout_height="match_parent">
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                               android:id="@+id/img_dash_10" android:src="@drawable/square"
+                               android:layout_marginLeft="50px" android:layout_marginRight="26px"/>
+                    <TextView android:layout_width="970px" android:layout_height="wrap_content"
+                              android:id="@+id/tv_note_content_10" android:textColor="#232323" android:gravity="center_vertical"
+                              android:layout_marginLeft="50px" android:textSize="35px"/>
+                </LinearLayout>
+                <ImageView android:layout_width="match_parent" android:layout_height="wrap_content"
+                           android:id="@+id/line_sub_10" android:src="@drawable/underline_grey"
+                           android:layout_gravity="center_horizontal"/>
+                <LinearLayout android:orientation="horizontal" android:layout_width="match_parent"
+                              android:layout_height="match_parent">
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                               android:id="@+id/img_dash_11" android:src="@drawable/square"
+                               android:layout_marginLeft="50px" android:layout_marginRight="26px"/>
+                    <TextView android:layout_width="970px" android:layout_height="wrap_content"
+                              android:id="@+id/tv_note_content_11" android:textColor="#232323" android:gravity="center_vertical"
+                              android:layout_marginLeft="50px" android:textSize="35px"/>
+                </LinearLayout>
+                <ImageView android:layout_width="match_parent" android:layout_height="wrap_content"
+                           android:id="@+id/line_sub_11" android:src="@drawable/underline_grey"
+                           android:layout_gravity="center_horizontal"/>
+                <LinearLayout android:orientation="horizontal" android:layout_width="match_parent"
+                              android:layout_height="match_parent">
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                               android:id="@+id/img_dash_12" android:src="@drawable/square"
+                               android:layout_marginLeft="50px" android:layout_marginRight="26px"/>
+                    <TextView android:layout_width="970px" android:layout_height="wrap_content"
+                              android:id="@+id/tv_note_content_12" android:textColor="#232323" android:gravity="center_vertical"
+                              android:layout_marginLeft="50px" android:textSize="35px"/>
+                </LinearLayout>
+                <ImageView android:layout_width="match_parent" android:layout_height="wrap_content"
+                           android:id="@+id/imageView23" android:src="@drawable/underline_grey"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent"
+                          android:layout_height="wrap_content" android:background="#ffffff"
+                          android:id="@+id/layout_content_1">
+                <TextView android:layout_width="896px" android:layout_height="160px" android:text="subtitle"
+                          android:id="@+id/tv_note_list_1" android:gravity="center_vertical" android:textColor="#232323"
+                          android:textSize="43px" android:layout_marginLeft="50px"/>
+                <ImageView android:layout_width="35px" android:layout_height="24px" android:id="@+id/img_go_list_1"
+                           android:layout_gravity="center_vertical" android:src="@drawable/closed"
+                           android:layout_marginRight="50px"/>
+            </LinearLayout>
+            <ImageView android:layout_width="match_parent" android:layout_height="wrap_content"
+                       android:id="@+id/imageView119" android:src="@drawable/underline_grey"/>
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent"
+                          android:layout_height="match_parent" android:background="#ffffff"
+                          android:id="@+id/content_1" android:visibility="gone">
+                <LinearLayout android:orientation="horizontal" android:layout_width="match_parent"
+                              android:layout_height="match_parent">
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                               android:id="@+id/img_dash_13" android:src="@drawable/square"
+                               android:layout_marginLeft="50px" android:layout_marginRight="26px"/>
+                    <TextView android:layout_width="970px" android:layout_height="wrap_content"
+                              android:id="@+id/tv_note_content_13" android:textColor="#232323" android:gravity="center_vertical"
+                              android:layout_marginLeft="50px" android:textSize="35px"/>
+                </LinearLayout>
+                <ImageView android:layout_width="match_parent" android:layout_height="wrap_content"
+                           android:id="@+id/line_sub_12" android:src="@drawable/underline_grey"
+                           android:layout_gravity="center_horizontal"/>
+                <LinearLayout android:orientation="horizontal" android:layout_width="match_parent"
+                              android:layout_height="wrap_content">
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                               android:id="@+id/img_dash_14" android:src="@drawable/square"
+                               android:layout_marginLeft="50px" android:layout_marginRight="26px"/>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                              android:text="피하형" android:id="@+id/tv_note_content_14" android:textColor="#232323"
+                              android:layout_gravity="center_vertical" android:gravity="center_vertical"/>
+                </LinearLayout>
+                <ImageView android:layout_width="match_parent" android:layout_height="wrap_content"
+                           android:id="@+id/imageView25" android:src="@drawable/underline_grey"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent"
+                          android:layout_height="wrap_content" android:background="#ffffff"
+                          android:id="@+id/layout_content_2">
+                <TextView android:layout_width="896px" android:layout_height="160px" android:text="subtitle"
+                          android:id="@+id/tv_note_list_2" android:gravity="center_vertical" android:textColor="#232323"
+                          android:textSize="43px" android:layout_marginLeft="50px"/>
+                <ImageView android:layout_width="35px" android:layout_height="24px" android:id="@+id/img_go_list_2"
+                           android:layout_gravity="center_vertical" android:src="@drawable/closed"
+                           android:layout_marginRight="50px"/>
+            </LinearLayout>
+            <ImageView android:layout_width="match_parent" android:layout_height="wrap_content"
+                       android:id="@+id/imageView127" android:src="@drawable/underline_grey"/>
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent"
+                          android:layout_height="match_parent" android:background="#ffffff"
+                          android:id="@+id/content_2" android:visibility="gone">
+                <LinearLayout android:orientation="horizontal" android:layout_width="match_parent"
+                              android:layout_height="wrap_content">
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                               android:id="@+id/round_7" android:src="@drawable/round"
+                               android:layout_gravity="center_vertical"/>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                              android:text="피하형" android:id="@+id/tv_round_7" android:textColor="#232323"
+                              android:layout_gravity="center_vertical" android:gravity="center_vertical"/>
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:layout_width="match_parent"
+                              android:layout_height="match_parent">
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                               android:id="@+id/img_dash_15" android:src="@drawable/square"
+                               android:layout_marginLeft="50px" android:layout_marginRight="26px"/>
+                    <TextView android:layout_width="970px" android:layout_height="wrap_content"
+                              android:id="@+id/tv_note_content_15" android:textColor="#232323" android:gravity="center_vertical"
+                              android:layout_marginLeft="50px" android:textSize="35px"/>
+                </LinearLayout>
+                <ImageView android:layout_width="match_parent" android:layout_height="wrap_content"
+                           android:id="@+id/line_sub_13" android:src="@drawable/underline_grey"
+                           android:layout_gravity="center_horizontal"/>
+                <LinearLayout android:orientation="horizontal" android:layout_width="match_parent"
+                              android:layout_height="match_parent">
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                               android:id="@+id/img_dash_16" android:src="@drawable/square"
+                               android:layout_marginLeft="50px" android:layout_marginRight="26px"/>
+                    <TextView android:layout_width="970px" android:layout_height="wrap_content"
+                              android:id="@+id/tv_note_content_16" android:textColor="#232323" android:gravity="center_vertical"
+                              android:layout_marginLeft="50px" android:textSize="35px"/>
+                </LinearLayout>
+                <ImageView android:layout_width="match_parent" android:layout_height="wrap_content"
+                           android:id="@+id/line_sub_14" android:src="@drawable/underline_grey"
+                           android:layout_gravity="center_horizontal"/>
+                <LinearLayout android:orientation="horizontal" android:layout_width="match_parent"
+                              android:layout_height="match_parent">
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                               android:id="@+id/img_dash_17" android:src="@drawable/square"
+                               android:layout_marginLeft="50px" android:layout_marginRight="26px"/>
+                    <TextView android:layout_width="970px" android:layout_height="wrap_content"
+                              android:id="@+id/tv_note_content_17" android:textColor="#232323" android:gravity="center_vertical"
+                              android:layout_marginLeft="50px" android:textSize="35px"/>
+                </LinearLayout>
+                <ImageView android:layout_width="match_parent" android:layout_height="wrap_content"
+                           android:id="@+id/line_sub_15" android:src="@drawable/underline_grey"
+                           android:layout_gravity="center_horizontal"/>
+                <LinearLayout android:orientation="horizontal" android:layout_width="match_parent"
+                              android:layout_height="wrap_content">
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                               android:id="@+id/round_8" android:src="@drawable/round"
+                               android:layout_gravity="center_vertical"/>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                              android:text="피하형" android:id="@+id/tv_round_8" android:textColor="#232323"
+                              android:layout_gravity="center_vertical" android:gravity="center_vertical"/>
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:layout_width="match_parent"
+                              android:layout_height="match_parent">
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                               android:id="@+id/img_dash_18" android:src="@drawable/square"
+                               android:layout_marginLeft="50px" android:layout_marginRight="26px"/>
+                    <TextView android:layout_width="970px" android:layout_height="wrap_content"
+                              android:id="@+id/tv_note_content_18" android:textColor="#232323" android:gravity="center_vertical"
+                              android:layout_marginLeft="50px" android:textSize="35px"/>
+                </LinearLayout>
+                <ImageView android:layout_width="match_parent" android:layout_height="wrap_content"
+                           android:id="@+id/line_sub_16" android:src="@drawable/underline_grey"
+                           android:layout_gravity="center_horizontal"/>
+                <LinearLayout android:orientation="horizontal" android:layout_width="match_parent"
+                              android:layout_height="match_parent">
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                               android:id="@+id/img_dash_19" android:src="@drawable/square"
+                               android:layout_marginLeft="50px" android:layout_marginRight="26px"/>
+                    <TextView android:layout_width="970px" android:layout_height="wrap_content"
+                              android:id="@+id/tv_note_content_19" android:textColor="#232323" android:gravity="center_vertical"
+                              android:layout_marginLeft="50px" android:textSize="35px"/>
+                </LinearLayout>
+                <ImageView android:layout_width="match_parent" android:layout_height="wrap_content"
+                           android:id="@+id/line_sub_17" android:src="@drawable/underline_grey"
+                           android:layout_gravity="center_horizontal"/>
+                <LinearLayout android:orientation="horizontal" android:layout_width="match_parent"
+                              android:layout_height="match_parent">
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                               android:id="@+id/img_dash_20" android:src="@drawable/square"
+                               android:layout_marginLeft="50px" android:layout_marginRight="26px"/>
+                    <TextView android:layout_width="970px" android:layout_height="wrap_content"
+                              android:id="@+id/tv_note_content_20" android:textColor="#232323" android:gravity="center_vertical"
+                              android:layout_marginLeft="50px" android:textSize="35px"/>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent"
+                          android:layout_height="wrap_content" android:background="#ffffff"
+                          android:id="@+id/layout_content_3">
+                <TextView android:layout_width="896px" android:layout_height="160px" android:text="subtitle"
+                          android:id="@+id/tv_note_list_3" android:gravity="center_vertical" android:textColor="#232323"
+                          android:textSize="43px" android:layout_marginLeft="50px"/>
+                <ImageView android:layout_width="35px" android:layout_height="24px" android:id="@+id/img_go_list_3"
+                           android:layout_gravity="center_vertical" android:src="@drawable/closed"
+                           android:layout_marginRight="50px"/>
+            </LinearLayout>
+            <ImageView android:layout_width="match_parent" android:layout_height="wrap_content"
+                       android:id="@+id/imageView128" android:src="@drawable/underline_grey"/>
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent"
+                          android:layout_height="match_parent" android:background="#ffffff" android:id="@+id/content_3"
+                          android:visibility="gone">
+                <LinearLayout android:orientation="horizontal" android:layout_width="match_parent"
+                              android:layout_height="match_parent">
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                               android:id="@+id/img_dash_21" android:src="@drawable/square"
+                               android:layout_marginLeft="50px" android:layout_marginRight="26px"/>
+                    <TextView android:layout_width="970px" android:layout_height="wrap_content"
+                              android:id="@+id/tv_note_content_21" android:textColor="#232323" android:gravity="center_vertical"
+                              android:layout_marginLeft="50px" android:textSize="35px"/>
+                </LinearLayout>
+                <ImageView android:layout_width="match_parent" android:layout_height="wrap_content"
+                           android:id="@+id/line_sub_18" android:src="@drawable/underline_grey"
+                           android:layout_gravity="center_horizontal"/>
+                <LinearLayout android:orientation="horizontal" android:layout_width="match_parent"
+                              android:layout_height="wrap_content">
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                               android:id="@+id/img_dash_22" android:src="@drawable/square"
+                               android:layout_marginLeft="50px" android:layout_marginRight="26px"/>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                              android:text="피하형" android:id="@+id/tv_note_content_22" android:textColor="#232323"
+                              android:layout_gravity="center_vertical" android:gravity="center_vertical"/>
+                </LinearLayout>
+                <ImageView android:layout_width="match_parent" android:layout_height="wrap_content"
+                           android:id="@+id/line_sub_19" android:src="@drawable/underline_grey"
+                           android:layout_gravity="center_horizontal"/>
+                <LinearLayout android:orientation="horizontal" android:layout_width="match_parent"
+                              android:layout_height="wrap_content">
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                               android:id="@+id/img_dash_23" android:src="@drawable/square"
+                               android:layout_marginLeft="50px" android:layout_marginRight="26px"/>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                              android:text="피하형" android:id="@+id/tv_note_content_23" android:textColor="#232323"
+                              android:layout_gravity="center_vertical" android:gravity="center_vertical"/>
+                </LinearLayout>
+                <ImageView android:layout_width="match_parent" android:layout_height="wrap_content"
+                           android:id="@+id/imageView26" android:src="@drawable/underline_grey"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent"
+                          android:layout_height="wrap_content" android:background="#ffffff"
+                          android:id="@+id/layout_content_4">
+                <TextView android:layout_width="896px" android:layout_height="160px" android:text="subtitle"
+                          android:id="@+id/tv_note_list_4" android:gravity="center_vertical" android:textColor="#232323"
+                          android:textSize="43px" android:layout_marginLeft="50px"/>
+                <ImageView android:layout_width="35px" android:layout_height="24px" android:id="@+id/img_go_list_4"
+                           android:layout_gravity="center_vertical" android:src="@drawable/closed"
+                           android:layout_marginRight="50px"/>
+            </LinearLayout>
+            <ImageView android:layout_width="match_parent" android:layout_height="wrap_content"
+                       android:id="@+id/imageView150" android:src="@drawable/underline_grey"/>
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent"
+                          android:layout_height="match_parent" android:background="#ffffff" android:id="@+id/content_4"
+                          android:visibility="gone">
+                <LinearLayout android:orientation="horizontal" android:layout_width="match_parent"
+                              android:layout_height="match_parent">
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                               android:id="@+id/img_dash_24" android:src="@drawable/square"
+                               android:layout_marginLeft="50px" android:layout_marginRight="26px"/>
+                    <TextView android:layout_width="970px" android:layout_height="wrap_content"
+                              android:id="@+id/tv_note_content_24" android:textColor="#232323" android:gravity="center_vertical"
+                              android:layout_marginLeft="50px" android:textSize="35px"/>
+                </LinearLayout>
+                <ImageView android:layout_width="match_parent" android:layout_height="wrap_content"
+                           android:id="@+id/line_sub_20" android:src="@drawable/underline_grey"
+                           android:layout_gravity="center_horizontal"/>
+                <LinearLayout android:orientation="horizontal" android:layout_width="match_parent"
+                              android:layout_height="wrap_content">
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                               android:id="@+id/img_dash_25" android:src="@drawable/square"
+                               android:layout_marginLeft="50px" android:layout_marginRight="26px"/>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                              android:text="피하형" android:id="@+id/tv_note_content_25" android:textColor="#232323"
+                              android:layout_gravity="center_vertical" android:gravity="center_vertical"/>
+                </LinearLayout>
+                <ImageView android:layout_width="match_parent" android:layout_height="wrap_content"
+                           android:id="@+id/line_sub_21" android:src="@drawable/underline_grey"
+                           android:layout_gravity="center_horizontal"/>
+                <LinearLayout android:orientation="horizontal" android:layout_width="match_parent"
+                              android:layout_height="wrap_content">
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                               android:id="@+id/img_dash_26" android:src="@drawable/square"
+                               android:layout_marginLeft="50px" android:layout_marginRight="26px"
+                               android:focusableInTouchMode="false"/>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                              android:text="피하형" android:id="@+id/tv_note_content_26" android:textColor="#232323"
+                              android:layout_gravity="center_vertical" android:gravity="center_vertical"/>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
+
